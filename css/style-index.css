@@ -97,8 +97,8 @@ header {
   width: 100%;
   height: 100%;
   background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .container-img--logo {
   grid-area: area1;
@@ -160,9 +160,8 @@ header {
   font-weight: 800;
 }
 .container-img--about {
-    width: 100%;
-      height: 100%;
-
+  width: 100%;
+  height: 100%;
 }
 .container_experiencia {
   display: grid;
@@ -205,11 +204,11 @@ header {
   font-size: var(--iphone-titles-size);
   font-weight: 800;
 }
-.button-sertificados:hover{
+.button-sertificados:hover {
   background: var(--fonts-color);
-    border: 1px solid var(--boton-color);
+  border: 1px solid var(--boton-color);
 }
-.button-sertificados:hover a{
+.button-sertificados:hover a {
   color: var(--boton-color);
 }
 .container_tecnologias h2 {
@@ -231,7 +230,7 @@ header {
   gap: 2rem;
 }
 
-.container--icons{
+.container--icons {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -244,7 +243,7 @@ header {
   font-weight: 800;
   text-align: center;
 }
-.container_img--about{
+.container_img--about {
   object-fit: cover;
 }
 .container_projects {
