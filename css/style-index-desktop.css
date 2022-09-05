@@ -119,14 +119,14 @@ header {
   grid-template-columns: minmax(300px, 600px) minmax(300px, 600px);
   grid-template-rows: minmax(200px, 461px);
 }
-.container_texts--sertificados h2 {
+.container_texts--certificados h2 {
   font-size: var(--desktop-titles-bold-size);
 }
-.container_texts--sertificados p {
+.container_texts--certificados p {
   font-size: var(--desktop-texts-size);
   line-height: var(--desktop-texts-height);
 }
-.button-sertificados a {
+.button-certificados a {
   font-size: var(--desktop-titles-size);
 }
 .container_tecnologias h2 {

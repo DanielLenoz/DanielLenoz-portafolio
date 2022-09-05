@@ -79,17 +79,17 @@ header {
   height: 100%;
 }
 
-.container_sertificados {
+.container_certificados {
   position: relative;
 }
-.container_sertificados .titles_sertificados {
+.container_certificados .titles_certificados {
   font-size: var(--desktop-titles-size);
 }
-.container_img--sertificados {
+.container_img--certificados {
   width: 48.3rem;
   height: 36.6rem;
 }
-.container_sertificados .slider {
+.container_certificados .slider {
   overflow: hidden;
   scroll-behavior: smooth;
 }

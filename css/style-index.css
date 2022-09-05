@@ -171,17 +171,17 @@ header {
   background: var(--informacion-color);
   padding: 1.5rem 2rem;
 }
-.container_texts--sertificados {
+.container_texts--certificados {
   display: grid;
   justify-items: center;
 }
-.container_texts--sertificados h2 {
+.container_texts--certificados h2 {
   font-size: var(--iphone-titles-bold-size);
   font-weight: var(--titles-bold-weight);
   font-family: var(--titles-font-family);
   text-align: center;
 }
-.container_texts--sertificados p {
+.container_texts--certificados p {
   font-size: var(--iphone-texts-size);
   font-weight: var(--texts-weight);
   font-family: var(--texts-font-family);
@@ -190,7 +190,7 @@ header {
   margin: 1.1rem 0 1rem;
   text-align: center;
 }
-.button-sertificados {
+.button-certificados {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -199,16 +199,16 @@ header {
   height: 4.9rem;
   border-radius: 1.3rem;
 }
-.button-sertificados a {
+.button-certificados a {
   color: var(--fonts-color);
   font-size: var(--iphone-titles-size);
   font-weight: 800;
 }
-.button-sertificados:hover {
+.button-certificados:hover {
   background: var(--fonts-color);
   border: 1px solid var(--boton-color);
 }
-.button-sertificados:hover a {
+.button-certificados:hover a {
   color: var(--boton-color);
 }
 .container_tecnologias h2 {

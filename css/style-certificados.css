@@ -119,11 +119,11 @@ header {
 .container_img-animation {
   display: none;
 }
-.container_sertificados {
+.container_certificados {
   background: var(--informacion-color);
   padding: 1rem 2rem;
 }
-.container_sertificados .titles_sertificados {
+.container_certificados .titles_certificados {
   font-size: var(--iphone-titles-size);
   font-weight: var(--titles-weight);
   font-family: var(--titles-font-family);
@@ -132,24 +132,24 @@ header {
 .button_scroll {
   display: none;
 }
-.sub_container--sertificados {
+.sub_container--certificados {
   display: flex;
   gap: 1rem;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
 }
-.sub_container--sertificados::-webkit-scrollbar {
+.sub_container--certificados::-webkit-scrollbar {
   display: none;
 }
-.container_img--sertificados > img {
+.container_img--certificados > img {
   height: 100%;
   align-content: center;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-.container_img--sertificados {
+.container_img--certificados {
   width: 31rem;
   height: 23.5rem;
 }
