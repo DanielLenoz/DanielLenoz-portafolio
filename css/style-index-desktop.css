@@ -93,18 +93,7 @@ header {
   line-height: var(--desktop-texts-height);
 }
 .button-cv {
-  width: 12.8rem;
-  height: 4.6rem;
-}
-.button-cv a {
   font-size: 18px;
-}
-.button-cv:hover {
-  background: var(--fonts-color);
-  border: 1px solid var(--boton-color);
-}
-.button-cv:hover a {
-  color: var(--boton-color);
 }
 .container_about {
   grid-template-areas: "img about";
@@ -128,7 +117,7 @@ header {
   font-size: var(--desktop-texts-size);
   line-height: var(--desktop-texts-height);
 }
-.button-certificados a {
+.button-certificados {
   font-size: var(--desktop-titles-size);
 }
 .container_tecnologias h2 {

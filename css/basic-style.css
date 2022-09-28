@@ -46,7 +46,9 @@ a {
   display: inline;
   color: black;
 }
-
+button{
+  border-style: none;
+}
 ::-webkit-scrollbar {
   width: 10px;
 }
