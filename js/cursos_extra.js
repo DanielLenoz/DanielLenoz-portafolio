@@ -3,26 +3,26 @@ const containerExtra = document.querySelector(".container-extra");
 const productListExtra = [];
 
 productListExtra.push({
-  image: "../../img/img-cursos-extra/marca-personal.jpg",
+  image: "../img/img-cursos-extra/marca-personal.jpg",
 });
 productListExtra.push({
-  image: "../../img/img-cursos-extra/fundamentos-de-matematicas.jpg",
+  image: "../img/img-cursos-extra/fundamentos-de-matematicas.jpg",
 });
 productListExtra.push({
-  image: "../../img/img-cursos-extra/optimizacion-perfil-de-linkedin.jpg",
+  image: "../img/img-cursos-extra/optimizacion-perfil-de-linkedin.jpg",
 });
 productListExtra.push({
   image:
-    "../../img/img-cursos-extra/estrategias-de-contenido-para-linkedin.jpg",
+    "../img/img-cursos-extra/estrategias-de-contenido-para-linkedin.jpg",
 });
 productListExtra.push({
-  image: "../../img/img-cursos-extra/finanzas-personales.jpg",
+  image: "../img/img-cursos-extra/finanzas-personales.jpg",
 });
 productListExtra.push({
-  image: "../../img/img-cursos-extra/creacion-de-portafolio-cv.jpg",
+  image: "../img/img-cursos-extra/creacion-de-portafolio-cv.jpg",
 });
 productListExtra.push({
-  image: "../../img/img-cursos-extra/pentateuco.jpg",
+  image: "../img/img-cursos-extra/pentateuco.jpg",
 });
 
 function certicicadosExtra(arrExtra) {

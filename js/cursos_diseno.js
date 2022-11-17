@@ -3,11 +3,11 @@ const containerDiseno = document.querySelector(".container-diseno");
 const productListDiseno = [];
 
 productListDiseno.push({
-  image: "../../img/img-diseño/sistemas-de-diseño.jpg",
+  image: "../img/img-diseño/sistemas-de-diseño.jpg",
 });
 
 productListDiseno.push({
-  image: "../../img/img-diseño/diseño-para-programadores.jpg",
+  image: "../img/img-diseño/diseño-para-programadores.jpg",
 });
 function certicicadosDiseno(arrDiseno) {
   for (cursosImg of arrDiseno) {
