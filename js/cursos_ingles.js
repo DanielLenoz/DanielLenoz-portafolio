@@ -2,6 +2,12 @@ const containerIngles = document.querySelector(".container-ingles");
 
 const productListIngles = [];
 productListIngles.push({
+  image: "../img/img-ingles/B1-requests-and-reflexive-pronouns.jpg",
+});
+productListIngles.push({
+  image: "../img/img-ingles/B1-prefixes-and-compound-adjectives.jpg",
+});
+productListIngles.push({
   image: "../img/img-ingles/B1-adjectives-and-passive-voice.jpg",
 });
 

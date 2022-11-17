@@ -3,6 +3,9 @@ const containerTech = document.querySelector(".container-tecnologia");
 const productListTech = [];
 
 productListTech.push({
+  image: "../img/img-tecnologia/practico-de-JavaScript.jpg",
+});
+productListTech.push({
   image: "../img/img-tecnologia/basico-Javascript.jpg",
 });
 productListTech.push({
