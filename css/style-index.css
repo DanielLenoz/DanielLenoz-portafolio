@@ -35,7 +35,7 @@ nav {
   height: 55px;
 }
 
-.menu--icon>img {
+.menu--icon > img {
   position: absolute;
   right: 0;
   margin: 1.5rem;
@@ -136,16 +136,16 @@ nav {
   line-break: auto;
   margin-top: 1.6rem;
 }
-.button-cv{
+.button-cv {
   display: inline-block;
   margin-top: 1.6rem;
-    background: var(--boton-color);
-    border-radius: 13px;
-    color: var(--fonts-color);
-      font-size: 14px;
-      font-weight: 800;
-      padding: 0.7rem 2rem;
-      border: 1px solid var(--boton-color);
+  background: var(--boton-color);
+  border-radius: 13px;
+  color: var(--fonts-color);
+  font-size: 14px;
+  font-weight: 800;
+  padding: 0.7rem 2rem;
+  border: 1px solid var(--boton-color);
 }
 .button-cv:hover {
   background: var(--fonts-color);
@@ -184,13 +184,13 @@ nav {
   margin: 1.1rem 0 1rem;
   text-align: center;
 }
-.button-certificados{
+.button-certificados {
   background: var(--boton-color);
   padding: 0.9rem 9rem;
-    border-radius: 1.3rem;
-    color: var(--fonts-color);
-      font-size: var(--iphone-titles-size);
-      font-weight: 800;
+  border-radius: 1.3rem;
+  color: var(--fonts-color);
+  font-size: var(--iphone-titles-size);
+  font-weight: 800;
   border: 1px solid var(--boton-color);
 }
 .button-certificados:hover {

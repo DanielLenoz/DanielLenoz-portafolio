@@ -3,21 +3,20 @@ header {
   top: 0;
   z-index: 0;
 }
-.navar--mobile{
+.navar--mobile {
   display: none;
 }
-.navar--desktop{
+.navar--desktop {
   display: block;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  
 }
-nav{
+nav {
   height: 103px;
 }
 
-.red_container{
+.red_container {
   display: flex;
   height: auto;
   padding-right: 2rem;
@@ -43,11 +42,11 @@ nav{
   transform-origin: bottom;
   transition: all ease-in-out 0.2s;
 }
-.contenido:hover .share_link{
+.contenido:hover .share_link {
   display: block;
 }
 
-.contenido:hover div{
+.contenido:hover div {
   display: block;
 }
 .contenido > .share_link {
@@ -59,21 +58,20 @@ nav{
   justify-items: flex-end;
   display: none;
   padding: 5px;
-    background: var(--fonts-color-black);
-    border-radius: 9px;
-    z-index: 1;
+  background: var(--fonts-color-black);
+  border-radius: 9px;
+  z-index: 1;
 }
-.contenido>div {
+.contenido > div {
   width: 20px;
   height: 20px;
   background: var(--fonts-color-black);
- rotate: 50deg;
- position: absolute;
- top: 60px;
- right: 20px;
- display: none;
+  rotate: 50deg;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  display: none;
 }
-
 
 .container_intro {
   grid-template-columns: 1fr 1fr 1fr;

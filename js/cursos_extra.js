@@ -12,8 +12,7 @@ productListExtra.push({
   image: "../img/img-cursos-extra/optimizacion-perfil-de-linkedin.jpg",
 });
 productListExtra.push({
-  image:
-    "../img/img-cursos-extra/estrategias-de-contenido-para-linkedin.jpg",
+  image: "../img/img-cursos-extra/estrategias-de-contenido-para-linkedin.jpg",
 });
 productListExtra.push({
   image: "../img/img-cursos-extra/finanzas-personales.jpg",

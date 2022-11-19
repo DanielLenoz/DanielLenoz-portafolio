@@ -52,8 +52,7 @@ productListTech.push({
   image: "../img/img-tecnologia/prework-windows.jpg",
 });
 productListTech.push({
-  image:
-    "../img/img-tecnologia/fundamentos-de-ingenieria-de-software.jpg.jpg",
+  image: "../img/img-tecnologia/fundamentos-de-ingenieria-de-software.jpg.jpg",
 });
 productListTech.push({
   image: "../img/img-tecnologia/introduccion-a-la-web.jpg",

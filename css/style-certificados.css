@@ -3,41 +3,42 @@ header {
   top: 0;
   z-index: 1;
 }
-.inactive{
+.inactive {
   transform: scale(0);
 }
-.menu, .close{
+.menu,
+.close {
   transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-nav{
+nav {
   background: var(--header-color);
   width: 100%;
   height: 55px;
 }
-.navar--desktop{
+.navar--desktop {
   display: none;
 }
-.navar--mobile .container_menu-mobile{
+.navar--mobile .container_menu-mobile {
   height: 100vh;
- width: 100%;
- background: var(--background-menu-color);
-}
-.menu--icon{
   width: 100%;
-    height: 55px;
+  background: var(--background-menu-color);
 }
-.menu--icon > img{
+.menu--icon {
+  width: 100%;
+  height: 55px;
+}
+.menu--icon > img {
   position: absolute;
   right: 0;
   margin: 1.5rem;
 }
 
-.red_container{
+.red_container {
   display: grid;
   place-content: center;
   height: 84vh;
 }
-.red_container .contenido{
+.red_container .contenido {
   margin: 2rem 0;
 }
 
