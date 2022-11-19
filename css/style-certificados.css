@@ -47,8 +47,21 @@ nav{
   font-family: var(--titles-font-family);
   color: var(--fonts-color);
   margin-left: 12px;
-  border-bottom: 1px solid var(--boton-color);
-  border-end-start-radius: 1rem;
+  border-bottom: 2px solid var(--boton-color);
+  animation: up infinite 2s;
+}
+@keyframes up {
+  0% {
+    border-bottom-left-radius: 0.5rem;
+  }
+
+  5% {
+    border-bottom-left-radius: 1rem;
+  }
+
+  10% {
+    border-bottom-left-radius: 2rem;
+  }
 }
 
 .contenido img {
