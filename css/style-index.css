@@ -272,7 +272,9 @@ nav {
   margin-bottom: 1.3rem;
   letter-spacing: 2px;
 }
-
+.card .back>h3 {
+  display: none;
+}
 .container-redes {
   display: grid;
   justify-items: center;
