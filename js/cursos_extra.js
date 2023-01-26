@@ -3,6 +3,9 @@ const containerExtra = document.querySelector(".container-extra");
 const productListExtra = [];
 
 productListExtra.push({
+  image: "../img/img-cursos-extra/crear-un-presupuesto-personal.jpg",
+});
+productListExtra.push({
   image: "../img/img-cursos-extra/presupuesto-y-flujo-de-caja.jpg",
 });
 productListExtra.push({
