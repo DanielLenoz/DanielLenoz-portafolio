@@ -3,6 +3,9 @@ const containerTech = document.querySelector(".container-tecnologia");
 const productListTech = [];
 
 productListTech.push({
+  image: "../img/img-tecnologia/programacion-orientada-a-objetos.jpg",
+});
+productListTech.push({
   image: "../img/img-tecnologia/closures-y-scope-en-javascript.jpg",
 });
 productListTech.push({
