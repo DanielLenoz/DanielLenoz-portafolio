@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Montserrat:wght@400;700;800&display=swap");
+
+:root {
+    --fonts-color: #EFFAFB;
+    --boton-color: #e04d01;
+    --background-menu-color: #0D121D;
+    --background-main-color: #0D121D;
+    --background-footer-color: #231F1F;
+    --background-radial:radial-gradient(212.74% 78.26% at 50% 0%, rgba(228, 207, 13, 0.99) 0%, rgba(163, 24, 24, 0.96) 29.31%, #0D121D 67.28%);
+    --relleno-card-color: #1F1F21;
+    --border-card-color: #3D3D3D;
+    --background-botton-color: linear-gradient(180deg, #FFE600 0%, rgba(245, 70, 1, 0.921357) 100%);
+    /* variables text */
+    --texts-weight: 400;
+    --titles-weight: 700;
+    --titles-bold-weight: 800;
+    --titles-font-family: "Merriweather", serif;
+    --texts-font-family: "Montserrat", sans-serif;
+    --iphone-titles-size: 18px;
+    --iphone-titles-bold-size: 20px;
+    --iphone-texts-size: 16px;
+    --iphone-texts-height: 24px;
+    --desktop-titles-size: 24px;
+    --desktop-titles-bold-size: 28px;
+    --desktop-texts-size: 20px;
+    --desktop-texts-height: 31px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "DM Sans", sans-serif;
+}
+
+body {
+    color: var(--fonts-color);
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+button {
+    border-style: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #3D3D3D;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #f5af19, #f12711);
+    border-radius: 3rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #bd4103;
+}
