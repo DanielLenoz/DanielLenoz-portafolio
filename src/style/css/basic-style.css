@@ -1,9 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Montserrat:wght@400;700;800&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Merriweather:wght@400;700;900&family=Montserrat:wght@400;700;800&display=swap');
 :root {
     --fonts-color: #EFFAFB;
     --boton-color: #e04d01;
-    --background-menu-color: #0D121D;
+    --background-header-color: #0D121D;
     --background-main-color: #0D121D;
     --background-footer-color: #231F1F;
     --background-radial:radial-gradient(212.74% 78.26% at 50% 0%, rgba(228, 207, 13, 0.99) 0%, rgba(163, 24, 24, 0.96) 29.31%, #0D121D 67.28%);
@@ -14,6 +13,7 @@
     --texts-weight: 400;
     --titles-weight: 700;
     --titles-bold-weight: 800;
+    --unic-font-family: "Carter One", serif;
     --titles-font-family: "Merriweather", serif;
     --texts-font-family: "Montserrat", sans-serif;
     --iphone-titles-size: 18px;

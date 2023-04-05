@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../src/style/css/basic-style.css" />
     <link rel="stylesheet" href="../src/style/css/index.css" />
+
+    <script defer src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script defer src="../src/style/js/index.js/menu.js"></script>
+    <script defer src="../src/style/js/index.js/textIntro.js"></script>
+    
+    <link rel="shortcut icon" href="../src/img/assets/icons-redes/logo_daniel.svg" />
     <title>Portafolio Daniel</title>
 </head>
 
@@ -14,8 +20,8 @@
     <header>
         <nav class="navar--mobile">
             <div class="menu--icon">
-                <img src="./assets/menu.svg" alt="menu de contenido" class="menu" />
-                <img src="./assets/close.svg" alt="close menu" class="close inactive" />
+                <img src="../src/img/assets/icons-template/menu_open.svg" alt="" class="menu" />
+                <img src="../src/img/assets/icons-template/menu_close.svg" alt="" class="close inactive" />
             </div>
             <div class="container_menu-mobile inactive">
                 <div class="red_container">
@@ -55,14 +61,14 @@
     </header>
 
     <main>
-        <figure>
+        <figure class="container_image">
             <picture>
                 <source media="(min-width:945px)" srcset="../src/img/img-desktop/logo_daniel.png">
                 <img src="../src/img/img-phone/logo_daniel.png" alt="Logo Daniel">
             </picture>
         </figure>
-        <div class="conten-text">
-            <p>Hello!! soy Daniel <span class="typed"></span></p>
+        <div class="conten_text">
+            <p class="text_static">Hello!! soy Daniel <span class="auto-typed"></span></p>
         </div>
     </main>
 </body>
