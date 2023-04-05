@@ -1,3 +1,96 @@
+//navar contenido
+const header = document.querySelector("header")
+
+const elementsHTMl = [
+  {
+    imgOpen: '../src/img/assets/icons-template/menu_open.svg',
+    imgClose: '../src/img/assets/icons-template/menu_close.svg',
+
+    linkeHome: 'home',
+    textHome: 'Home',
+
+    linkeAbout: 'about',
+    textAbout: 'About',
+
+    linkeProjects: 'projects',
+    textProjects: 'Projects',
+
+    linkeContact: 'contact',
+    textContact: 'Contact'
+  }
+];
+
+elementsHTMl.forEach((elIphone) => {
+  const navarMobile = document.createElement('nav')
+  navarMobile.classList.add('navar--mobile')
+
+  const menuIcon = document.createElement('div');
+  menuIcon.classList.add('menu--icon');
+
+  const imgOpen = document.createElement('img');
+  imgOpen.classList.add('menu');
+  imgOpen.setAttribute('src', elIphone.imgOpen);
+
+  const imgClose = document.createElement('img');
+  imgClose.classList.add('close');
+  imgClose.classList.add('inactive');
+  imgClose.setAttribute('src', elIphone.imgClose);
+  //---------------
+  const containerMenuMobile = document.createElement('div');
+  containerMenuMobile.classList.add('container_menu-mobile');
+  containerMenuMobile.classList.add('inactive');
+  const redContainer = document.createElement('div');
+  redContainer.classList.add('red_container');
+  //----
+  //*home
+  const contenidoHome = document.createElement('div');
+  contenidoHome.classList.add('contenido');
+  const aShareLinkHome = document.createElement('a');
+  aShareLinkHome.classList.add('share_link');
+  aShareLinkHome.setAttribute('href', elIphone.linkeHome);
+  aShareLinkHome.innerText = `${elIphone.textHome}`;
+
+  contenidoHome.appendChild(aShareLinkHome);
+  //*about
+  const contenidoAbout = document.createElement('div');
+  contenidoAbout.classList.add('contenido');
+  const aShareLinkAbout = document.createElement('a');
+  aShareLinkAbout.classList.add('share_link');
+  aShareLinkAbout.setAttribute('href', elIphone.linkeAbout);
+  aShareLinkAbout.innerText = `${elIphone.textAbout}`;
+
+  contenidoAbout.appendChild(aShareLinkAbout);
+  //*projects
+  const contenidoProjects = document.createElement('div');
+  contenidoProjects.classList.add('contenido');
+  const aShareLinkProjects = document.createElement('a');
+  aShareLinkProjects.classList.add('share_link');
+  aShareLinkProjects.setAttribute('href', elIphone.linkeProjects);
+  aShareLinkProjects.innerText = `${elIphone.textProjects}`;
+
+  contenidoProjects.appendChild(aShareLinkProjects);
+  //*contact
+  const contenidoContact = document.createElement('div');
+  contenidoContact.classList.add('contenido');
+  const aShareLinkContact = document.createElement('a');
+  aShareLinkContact.classList.add('share_link');
+  aShareLinkContact.setAttribute('href', elIphone.linkeContact);
+  aShareLinkContact.innerText = `${elIphone.textContact}`;
+
+  contenidoContact.appendChild(aShareLinkContact);
+  //*
+  //----
+  //** Contatenacion de todo los elementos
+  redContainer.append(contenidoHome, contenidoAbout, contenidoProjects, contenidoContact);
+
+  containerMenuMobile.appendChild(redContainer);
+  menuIcon.append(imgOpen, imgClose);
+
+  navarMobile.append(menuIcon, containerMenuMobile);
+  header.append(navarMobile)
+});
+
+//navar iconos
 const menuHamberIconOpen = document.querySelector(".menu");
 const menuHamberIconClose = document.querySelector(".close");
 const containerMenuMobile = document.querySelector(".container_menu-mobile");
@@ -16,3 +109,4 @@ function closeMobileMenu() {
   menuHamberIconClose.classList.add("inactive");
   containerMenuMobile.classList.add("inactive");
 }
+

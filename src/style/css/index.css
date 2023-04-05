@@ -30,7 +30,6 @@ nav {
 }
 
 .menu--icon {
-    background: var(--header-color);
     width: 100%;
     height: 55px;
 }
