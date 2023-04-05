@@ -89,7 +89,7 @@ main{
     flex-direction: column;
     align-items: center;
 }
-.container_image{
+.container_image--logo{
     margin-top: 7rem;
 }
 .text_static{
@@ -99,4 +99,7 @@ main{
     font-size: 32px;
     text-align: center;
     color: var(--fonts-color);
+}
+.container_image--daniel{
+    display: none;
 }
