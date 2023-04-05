@@ -4,8 +4,8 @@ const header = document.querySelector("header")
 
 const elementsHTMlIphone = [
   {
-    imgOpen: '../../src/img/assets/icons-template/menu_open.svg',
-    imgClose: '../../src/img/assets/icons-template/menu_close.svg',
+    imgOpen: '../src/img/assets/icons-template/menu_open.svg',
+    imgClose: '../src/img/assets/icons-template/menu_close.svg',
 
     linkeHome: 'home',
     textHome: 'Home',

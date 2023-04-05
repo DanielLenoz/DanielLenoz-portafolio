@@ -61,7 +61,7 @@ nav {
 }
 
 .share_link:hover {
-    border-bottom: 2px solid var(--boton-color);
+    border-bottom: 2px solid var(--line-color);
     animation: up infinite 2s;
 }
 

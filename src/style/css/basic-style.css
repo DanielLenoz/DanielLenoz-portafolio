@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Merriweather:wght@400;700;900&family=Montserrat:wght@400;700;800&display=swap');
 :root {
     --fonts-color: #EFFAFB;
-    --boton-color: #e04d01;
+    --fonts-radial:linear-gradient(180deg, #FFE600 0%, rgba(245, 70, 1, 0.921357) 100%);
+    --line-color: #bd4103;
     --background-header-color: #0D121D;
     --background-main-color: #0D121D;
     --background-footer-color: #231F1F;
     --background-radial:radial-gradient(212.74% 78.26% at 50% 0%, rgba(228, 207, 13, 0.99) 0%, rgba(163, 24, 24, 0.96) 29.31%, #0D121D 67.28%);
-    --relleno-card-color: #1F1F21;
-    --border-card-color: #3D3D3D;
+    --background-relleno-card-color: #1F1F21;
+    --background-border-card-color: #3D3D3D;
     --background-botton-color: linear-gradient(180deg, #FFE600 0%, rgba(245, 70, 1, 0.921357) 100%);
     /* variables text */
     --texts-weight: 400;
