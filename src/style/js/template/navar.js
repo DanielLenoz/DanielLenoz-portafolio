@@ -182,4 +182,3 @@ function closeMobileMenu() {
   menuHamberIconClose.classList.add("inactive");
   containerMenuMobile.classList.add("inactive");
 }
-

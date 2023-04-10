@@ -110,6 +110,7 @@
 .container_text--experience {
     display: grid;
     row-gap: 15px;
+    text-align: center;
 }
 .title_experience{
     text-align: center;
@@ -131,8 +132,7 @@
 .button_experience--freelancer, .button_experience--platzi{
     border: none;
     text-align: center;
-    font-size: var(--iphone-texts-size);
-    font-weight: var(--texts-weight);
+    align-self: self-end;
     border-radius: 13px;
     width: 16.2rem;
     height: 4.6rem;
@@ -282,6 +282,7 @@ footer{
 .footer_contact {
     display: grid;
     justify-content: center;
+    align-content: center;
     row-gap: 13px;
 }
 .contact_text{
@@ -297,6 +298,7 @@ footer{
 .footer_property{
     display: grid;
     justify-items: center;
+    align-content: center;
     row-gap: 1rem;
 }
 .property_text{

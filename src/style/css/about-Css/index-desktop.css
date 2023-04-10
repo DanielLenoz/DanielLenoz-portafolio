@@ -1,0 +1,104 @@
+.container_about{
+    grid-template-columns: 1fr 1fr;
+}
+.container_about--text{
+    align-self: center;
+}
+.container_about--text .title{
+    font-size: var(--desktop-titles-bold-size);
+}
+.container_about--text .text{
+    font-size: var(--desktop-texts-size);
+    line-height: var(--desktop-texts-height);
+}
+
+.container_skills{
+    padding: 0 8.4rem;
+}
+.container_skills > h1{
+    font-size: var(--desktop-titles-bold-size);
+}
+.container_card--skills{
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 2.5rem;
+    row-gap: 2.5rem;
+}
+.title_skill{
+    font-size: var(--desktop-titles-size);
+}
+.text_skill{
+    font-size: var(--desktop-texts-size);
+    line-height: var(--desktop-texts-height);
+}
+
+.container_experience{
+    padding: 7rem 8.4rem 0;
+}
+.container_experience > h1{
+    font-size: var(--desktop-titles-bold-size);
+}
+.container_card--experience{
+    grid-template-columns: 354px 354px;
+    column-gap: 2.5rem;
+}
+.title_experience{
+    font-size: var(--desktop-titles-size);
+}
+.text_experience{
+    font-size: var(--desktop-texts-size);
+    line-height: var(--desktop-texts-height);
+}
+.button_experience--freelancer, .button_experience--platzi{
+    width: 18.4rem;
+    height: 5.2rem;
+}
+.button_experience--freelancer>a,
+.button_experience--platzi>a{
+    font-size: var(--desktop-texts-size);
+}
+
+.container_technology{
+    padding: 7rem 8.4rem 20rem;
+}
+.container_technology > h1{
+    font-size: var(--desktop-titles-bold-size);
+}
+.container_card--technology{
+    grid-template-columns: 354px 354px 354px;
+    grid-auto-rows: 363px;
+    column-gap: 2.5rem;
+}
+.technology{
+    align-content: center;
+    align-items: center;
+}
+
+footer{
+    grid-template-columns: 1fr 1fr 3fr 2fr;
+    grid-template-areas: "logo menu text contact";
+}
+
+.footer_property{
+    grid-area: logo;
+}
+.footer_menu{
+    grid-area: menu;
+}
+.container_footer--text{
+    grid-area: text;
+}
+.footer_contact{
+    grid-area: contact;
+}
+.share_link{
+    font-size: var(--desktop-texts-size);
+    line-height: var(--desktop-texts-height);
+}
+.footer-text{
+    font-size: var(--desktop-texts-size);
+    line-height: var(--desktop-texts-height);
+}
+.contact_text{
+    font-size: var(--desktop-texts-size);
+    line-height: var(--desktop-texts-height);
+}

@@ -1,9 +1,10 @@
+// contenedor de footer
 const footer = document.querySelector("footer");
 
 //*modelo iphone */
 
 
-const elementsHTMlIphone = [
+const elementsHTMlIphones = [
     {
         imgLinkedin: '../../src/img/assets/icons-redes/linkedin.svg',
         imgGithub: '../../src/img/assets/icons-redes/github.svg',
@@ -25,7 +26,7 @@ const elementsHTMlIphone = [
     }
 ]
 
-elementsHTMlIphone.forEach((elIphone) => {
+elementsHTMlIphones.forEach((elIphone) => {
     //** container footer text
     const containerFooterText = document.createElement('section');
     containerFooterText.classList.add('container_footer--text');
