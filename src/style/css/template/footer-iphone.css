@@ -53,6 +53,7 @@ footer {
     display: grid;
     justify-content: center;
     align-content: center;
+    justify-items: center;
     row-gap: 13px;
 }
 
