@@ -94,6 +94,8 @@ border-radius: 14px;
     width: 100%;
     bottom: 0px;
     transform: scale(0);
+    transition: 0.2s cubic-bezier(0.96, 0.51, 0.66, 1.53);
+    transform-origin: bottom;
 }
 .container_img--projects:hover .container_icons--share{
     transform-origin: bottom;
