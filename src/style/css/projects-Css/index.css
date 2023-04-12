@@ -27,7 +27,7 @@ main{
     margin: 0 2rem;
     justify-content: center;
     row-gap: 4.2rem;
-    padding-bottom: 5rem;
+    padding-bottom: 14rem;
 }
 
 .container_text--projects > h3{
@@ -82,6 +82,9 @@ border-radius: 14px;
 }
 .container_img--projects  img{
     border-radius: 14px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .container_icons--share{
     display: flex;
