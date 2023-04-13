@@ -74,6 +74,32 @@ border-radius: 14px;
     margin-top: 1.3rem;
     position: relative;
 }
+.container_img--projects > figure{
+    position: relative;
+    z-index: 1;
+}
+
+.brillo-left{
+    width: 22.7rem;
+    height: 24.6rem;
+    border-radius: 100%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 230, 0, 0.46) 0%, rgba(245, 70, 1, 0.28) 53.12%, rgba(255, 0, 0, 0) 100%);
+    position: absolute;
+    top: 13rem;
+    right: -2rem;
+    pointer-events: none;
+}
+.brillo-right{
+    width: 22.7rem;
+    height: 24.6rem;
+    border-radius: 100%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 230, 0, 0.46) 0%, rgba(245, 70, 1, 0.28) 53.12%, rgba(255, 0, 0, 0) 100%);
+    position: absolute;
+    top: 13rem;
+    left: -8rem;
+    pointer-events: none;
+}
+
 .contact_img-left{
     box-shadow: 18px -14px 15px rgba(44, 39, 55, 0.79);
 }
