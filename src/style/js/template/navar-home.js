@@ -40,8 +40,12 @@ elementsHTMlIphone.forEach((elIphone) => {
   const containerMenuMobile = document.createElement("div");
   containerMenuMobile.classList.add("container_menu-mobile");
   containerMenuMobile.classList.add("inactive");
+  const brilloTop = document.createElement('div');
+  brilloTop.classList.add("brillo-top");
   const redContainer = document.createElement("div");
   redContainer.classList.add("red_container");
+  const brillobottom = document.createElement('div');
+  brillobottom.classList.add("brillo-bottom");
   //----
   //*home
   const contenidoHome = document.createElement("div");
@@ -89,7 +93,7 @@ elementsHTMlIphone.forEach((elIphone) => {
     contenidoContact
   );
 
-  containerMenuMobile.appendChild(redContainer);
+  containerMenuMobile.append(brilloTop,redContainer,brillobottom);
   menuIcon.append(imgOpen, imgClose);
 
   navarMobile.append(menuIcon, containerMenuMobile);

@@ -27,6 +27,7 @@ nav {
   height: 100vh;
   width: 100%;
   background: var(--background-header-color);
+  position: relative;
 }
 
 .menu--icon {
@@ -44,6 +45,36 @@ nav {
   display: grid;
   place-content: center;
   height: 84vh;
+}
+.container_menu-mobile .brillo-top {
+  width: 22.7rem;
+  height: 24.6rem;
+  border-radius: 100%;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(255, 230, 0, 0.46) 0%,
+    rgba(245, 70, 1, 0.28) 53.12%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  position: absolute;
+  top: -5rem;
+  left: -3rem;
+  pointer-events: none;
+}
+.container_menu-mobile .brillo-bottom {
+  width: 22.7rem;
+  height: 24.6rem;
+  border-radius: 100%;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(255, 230, 0, 0.46) 0%,
+    rgba(245, 70, 1, 0.28) 53.12%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  position: absolute;
+  bottom: 6rem;
+  right: 1rem;
+  pointer-events: none;
 }
 
 .red_container .contenido {

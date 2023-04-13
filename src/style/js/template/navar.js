@@ -21,7 +21,7 @@ const elementsHTMlIphone = [
   },
 ];
 
-elementsHTMlIphone.forEach((elDesktop) => {
+elementsHTMlIphone.forEach((elIphone) => {
   const navarMobile = document.createElement("nav");
   navarMobile.classList.add("navar--mobile");
 
@@ -30,26 +30,30 @@ elementsHTMlIphone.forEach((elDesktop) => {
 
   const imgOpen = document.createElement("img");
   imgOpen.classList.add("menu");
-  imgOpen.setAttribute("src", elDesktop.imgOpen);
+  imgOpen.setAttribute("src", elIphone.imgOpen);
 
   const imgClose = document.createElement("img");
   imgClose.classList.add("close");
   imgClose.classList.add("inactive");
-  imgClose.setAttribute("src", elDesktop.imgClose);
+  imgClose.setAttribute("src", elIphone.imgClose);
   //---------------
   const containerMenuMobile = document.createElement("div");
   containerMenuMobile.classList.add("container_menu-mobile");
   containerMenuMobile.classList.add("inactive");
+  const brilloTop = document.createElement('div');
+  brilloTop.classList.add("brillo-top");
   const redContainer = document.createElement("div");
   redContainer.classList.add("red_container");
+  const brillobottom = document.createElement('div');
+  brillobottom.classList.add("brillo-bottom");
   //----
   //*home
   const contenidoHome = document.createElement("div");
   contenidoHome.classList.add("contenido");
   const aShareLinkHome = document.createElement("a");
   aShareLinkHome.classList.add("share_link");
-  aShareLinkHome.setAttribute("href", elDesktop.linkeHome);
-  aShareLinkHome.innerText = `${elDesktop.textHome}`;
+  aShareLinkHome.setAttribute("href", elIphone.linkeHome);
+  aShareLinkHome.innerText = `${elIphone.textHome}`;
 
   contenidoHome.appendChild(aShareLinkHome);
   //*about
@@ -57,8 +61,8 @@ elementsHTMlIphone.forEach((elDesktop) => {
   contenidoAbout.classList.add("contenido");
   const aShareLinkAbout = document.createElement("a");
   aShareLinkAbout.classList.add("share_link");
-  aShareLinkAbout.setAttribute("href", elDesktop.linkeAbout);
-  aShareLinkAbout.innerText = `${elDesktop.textAbout}`;
+  aShareLinkAbout.setAttribute("href", elIphone.linkeAbout);
+  aShareLinkAbout.innerText = `${elIphone.textAbout}`;
 
   contenidoAbout.appendChild(aShareLinkAbout);
   //*projects
@@ -66,8 +70,8 @@ elementsHTMlIphone.forEach((elDesktop) => {
   contenidoProjects.classList.add("contenido");
   const aShareLinkProjects = document.createElement("a");
   aShareLinkProjects.classList.add("share_link");
-  aShareLinkProjects.setAttribute("href", elDesktop.linkeProjects);
-  aShareLinkProjects.innerText = `${elDesktop.textProjects}`;
+  aShareLinkProjects.setAttribute("href", elIphone.linkeProjects);
+  aShareLinkProjects.innerText = `${elIphone.textProjects}`;
 
   contenidoProjects.appendChild(aShareLinkProjects);
   //*contact
@@ -75,8 +79,8 @@ elementsHTMlIphone.forEach((elDesktop) => {
   contenidoContact.classList.add("contenido");
   const aShareLinkContact = document.createElement("a");
   aShareLinkContact.classList.add("share_link");
-  aShareLinkContact.setAttribute("href", elDesktop.linkeContact);
-  aShareLinkContact.innerText = `${elDesktop.textContact}`;
+  aShareLinkContact.setAttribute("href", elIphone.linkeContact);
+  aShareLinkContact.innerText = `${elIphone.textContact}`;
 
   contenidoContact.appendChild(aShareLinkContact);
   //*
@@ -89,7 +93,7 @@ elementsHTMlIphone.forEach((elDesktop) => {
     contenidoContact
   );
 
-  containerMenuMobile.appendChild(redContainer);
+  containerMenuMobile.append(brilloTop,redContainer,brillobottom);
   menuIcon.append(imgOpen, imgClose);
 
   navarMobile.append(menuIcon, containerMenuMobile);
