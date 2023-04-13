@@ -1,80 +1,80 @@
 header {
-    position: sticky;
-    top: 0;
-    z-index: 2;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 
 .inactive {
-    transform: scale(0);
+  transform: scale(0);
 }
 
 .menu,
 .close {
-    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 nav {
-    background: var(--background-header-color);
-    width: 100%;
-    height: 55px;
+  background: var(--background-header-color);
+  width: 100%;
+  height: 55px;
 }
 
 .navar--desktop {
-    display: none;
+  display: none;
 }
 
 .navar--mobile .container_menu-mobile {
-    height: 100vh;
-    width: 100%;
-    background: var(--background-header-color);
+  height: 100vh;
+  width: 100%;
+  background: var(--background-header-color);
 }
 
 .menu--icon {
-    width: 100%;
-    height: 55px;
+  width: 100%;
+  height: 55px;
 }
 
-.menu--icon>img {
-    position: absolute;
-    right: 0;
-    margin: 1.5rem;
+.menu--icon > img {
+  position: absolute;
+  right: 0;
+  margin: 1.5rem;
 }
 
 .red_container {
-    display: grid;
-    place-content: center;
-    height: 84vh;
+  display: grid;
+  place-content: center;
+  height: 84vh;
 }
 
 .red_container .contenido {
-    display: flex;
-    justify-content: center;
-    margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
 }
 
 .contenido .share_link {
-    font-size: 24px;
-    font-weight: var(--texts-weight);
-    font-family: var(--unic-font-family);
-    color: var(--fonts-color);
-    border-bottom: 2px solid #ffffff00;
+  font-size: 24px;
+  font-weight: var(--texts-weight);
+  font-family: var(--unic-font-family);
+  color: var(--fonts-color);
+  border-bottom: 2px solid #ffffff00;
 }
 
 .share_link:hover {
-    border-bottom: 2px solid var(--line-color);
-    animation: up infinite 2s;
+  border-bottom: 2px solid var(--line-color);
+  animation: up infinite 2s;
 }
 
 @keyframes up {
-    0% {
-        border-bottom-left-radius: 0.5rem;
-    }
+  0% {
+    border-bottom-left-radius: 0.5rem;
+  }
 
-    5% {
-        border-bottom-left-radius: 1rem;
-    }
+  5% {
+    border-bottom-left-radius: 1rem;
+  }
 
-    10% {
-        border-bottom-left-radius: 2rem;
-    }
+  10% {
+    border-bottom-left-radius: 2rem;
+  }
 }

@@ -1,70 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Merriweather:wght@400;700;900&family=Montserrat:wght@400;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Merriweather:wght@400;700;900&family=Montserrat:wght@400;700;800&display=swap");
 :root {
-    --fonts-color: #EFFAFB;
-    --fonts-radial:linear-gradient(180deg, #FFE600 0%, rgba(245, 70, 1, 0.921357) 100%);
-    --line-color: #bd4103;
-    --background-header-color: #0D121D;
-    --background-main-color: #0D121D;
-    --background-footer-color: #231F1F;
-    --background-radial:radial-gradient(212.74% 78.26% at 50% 0%, rgba(228, 207, 13, 0.99) 0%, rgba(163, 24, 24, 0.96) 29.31%, #0D121D 67.28%);
-    --background-relleno-card-color: #1F1F21;
-    --background-border-card-color: #3D3D3D;
-    --background-botton-color: linear-gradient(180deg, #FFE600 0%, rgba(245, 70, 1, 0.921357) 100%);
-    /* variables text */
-    --texts-weight: 400;
-    --titles-weight: 700;
-    --titles-bold-weight: 800;
-    --unic-font-family: "Carter One", serif;
-    --titles-font-family: "Merriweather", serif;
-    --texts-font-family: "Montserrat", sans-serif;
-    --iphone-titles-size: 18px;
-    --iphone-titles-bold-size: 20px;
-    --iphone-texts-size: 16px;
-    --iphone-texts-height: 24px;
-    --desktop-titles-size: 24px;
-    --desktop-titles-bold-size: 28px;
-    --desktop-texts-size: 20px;
-    --desktop-texts-height: 31px;
+  --fonts-color: #effafb;
+  --fonts-radial: linear-gradient(
+    180deg,
+    #ffe600 0%,
+    rgba(245, 70, 1, 0.921357) 100%
+  );
+  --line-color: #bd4103;
+  --background-header-color: #0d121d;
+  --background-main-color: #0d121d;
+  --background-footer-color: #231f1f;
+  --background-radial: radial-gradient(
+    212.74% 78.26% at 50% 0%,
+    rgba(228, 207, 13, 0.99) 0%,
+    rgba(163, 24, 24, 0.96) 29.31%,
+    #0d121d 67.28%
+  );
+  --background-relleno-card-color: #1f1f21;
+  --background-border-card-color: #3d3d3d;
+  --background-botton-color: linear-gradient(
+    180deg,
+    #ffe600 0%,
+    rgba(245, 70, 1, 0.921357) 100%
+  );
+  /* variables text */
+  --texts-weight: 400;
+  --titles-weight: 700;
+  --titles-bold-weight: 800;
+  --unic-font-family: "Carter One", serif;
+  --titles-font-family: "Merriweather", serif;
+  --texts-font-family: "Montserrat", sans-serif;
+  --iphone-titles-size: 18px;
+  --iphone-titles-bold-size: 20px;
+  --iphone-texts-size: 16px;
+  --iphone-texts-height: 24px;
+  --desktop-titles-size: 24px;
+  --desktop-titles-bold-size: 28px;
+  --desktop-texts-size: 20px;
+  --desktop-texts-height: 31px;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    font-size: 62.5%;
-    font-family: "DM Sans", sans-serif;
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
 }
 
 body {
-    color: var(--fonts-color);
+  color: var(--fonts-color);
 }
 
 a {
-    text-decoration: none;
-    display: inline;
-    color: black;
+  text-decoration: none;
+  display: inline;
+  color: black;
 }
 
 button {
-    border-style: none;
+  border-style: none;
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #3D3D3D;
+  background: #3d3d3d;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom, #f5af19, #f12711);
-    border-radius: 3rem;
+  background: linear-gradient(to bottom, #f5af19, #f12711);
+  border-radius: 3rem;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #bd4103;
+  background: #bd4103;
 }

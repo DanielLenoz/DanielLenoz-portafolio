@@ -78,28 +78,28 @@ nav {
     }
 } */
 
-body{
-    background: var(--background-radial);
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+body {
+  background: var(--background-radial);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.container_image--logo{
-    margin-top: 7rem;
+.container_image--logo {
+  margin-top: 7rem;
 }
-.text_static{
-    margin-top: 6rem;
-    font-family:var(--unic-font-family);
-    font-weight: 400;
-    font-size: 32px;
-    text-align: center;
-    color: var(--fonts-color);
+.text_static {
+  margin-top: 6rem;
+  font-family: var(--unic-font-family);
+  font-weight: 400;
+  font-size: 32px;
+  text-align: center;
+  color: var(--fonts-color);
 }
-.container_image--daniel{
-    display: none;
+.container_image--daniel {
+  display: none;
 }

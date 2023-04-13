@@ -1,167 +1,175 @@
 //navar contenido
-const header = document.querySelector("header")
+const header = document.querySelector("header");
 //*modelo iphone
 
 const elementsHTMlIphone = [
   {
-    imgOpen: '../src/img/assets/icons-template/menu_open.svg',
-    imgClose: '../src/img/assets/icons-template/menu_close.svg',
+    imgOpen: "../src/img/assets/icons-template/menu_open.svg",
+    imgClose: "../src/img/assets/icons-template/menu_close.svg",
 
-    linkeHome: 'home',
-    textHome: 'Home',
+    linkeHome: "home",
+    textHome: "Home",
 
-    linkeAbout: 'about',
-    textAbout: 'About',
+    linkeAbout: "about",
+    textAbout: "About",
 
-    linkeProjects: 'projects',
-    textProjects: 'Projects',
+    linkeProjects: "projects",
+    textProjects: "Projects",
 
-    linkeContact: 'contact',
-    textContact: 'Contact'
-  }
+    linkeContact: "contact",
+    textContact: "Contact",
+  },
 ];
 
 elementsHTMlIphone.forEach((elIphone) => {
-  const navarMobile = document.createElement('nav')
-  navarMobile.classList.add('navar--mobile')
+  const navarMobile = document.createElement("nav");
+  navarMobile.classList.add("navar--mobile");
 
-  const menuIcon = document.createElement('div');
-  menuIcon.classList.add('menu--icon');
+  const menuIcon = document.createElement("div");
+  menuIcon.classList.add("menu--icon");
 
-  const imgOpen = document.createElement('img');
-  imgOpen.classList.add('menu');
-  imgOpen.setAttribute('src', elIphone.imgOpen);
+  const imgOpen = document.createElement("img");
+  imgOpen.classList.add("menu");
+  imgOpen.setAttribute("src", elIphone.imgOpen);
 
-  const imgClose = document.createElement('img');
-  imgClose.classList.add('close');
-  imgClose.classList.add('inactive');
-  imgClose.setAttribute('src', elIphone.imgClose);
+  const imgClose = document.createElement("img");
+  imgClose.classList.add("close");
+  imgClose.classList.add("inactive");
+  imgClose.setAttribute("src", elIphone.imgClose);
   //---------------
-  const containerMenuMobile = document.createElement('div');
-  containerMenuMobile.classList.add('container_menu-mobile');
-  containerMenuMobile.classList.add('inactive');
-  const redContainer = document.createElement('div');
-  redContainer.classList.add('red_container');
+  const containerMenuMobile = document.createElement("div");
+  containerMenuMobile.classList.add("container_menu-mobile");
+  containerMenuMobile.classList.add("inactive");
+  const redContainer = document.createElement("div");
+  redContainer.classList.add("red_container");
   //----
   //*home
-  const contenidoHome = document.createElement('div');
-  contenidoHome.classList.add('contenido');
-  const aShareLinkHome = document.createElement('a');
-  aShareLinkHome.classList.add('share_link');
-  aShareLinkHome.setAttribute('href', elIphone.linkeHome);
+  const contenidoHome = document.createElement("div");
+  contenidoHome.classList.add("contenido");
+  const aShareLinkHome = document.createElement("a");
+  aShareLinkHome.classList.add("share_link");
+  aShareLinkHome.setAttribute("href", elIphone.linkeHome);
   aShareLinkHome.innerText = `${elIphone.textHome}`;
 
   contenidoHome.appendChild(aShareLinkHome);
   //*about
-  const contenidoAbout = document.createElement('div');
-  contenidoAbout.classList.add('contenido');
-  const aShareLinkAbout = document.createElement('a');
-  aShareLinkAbout.classList.add('share_link');
-  aShareLinkAbout.setAttribute('href', elIphone.linkeAbout);
+  const contenidoAbout = document.createElement("div");
+  contenidoAbout.classList.add("contenido");
+  const aShareLinkAbout = document.createElement("a");
+  aShareLinkAbout.classList.add("share_link");
+  aShareLinkAbout.setAttribute("href", elIphone.linkeAbout);
   aShareLinkAbout.innerText = `${elIphone.textAbout}`;
 
   contenidoAbout.appendChild(aShareLinkAbout);
   //*projects
-  const contenidoProjects = document.createElement('div');
-  contenidoProjects.classList.add('contenido');
-  const aShareLinkProjects = document.createElement('a');
-  aShareLinkProjects.classList.add('share_link');
-  aShareLinkProjects.setAttribute('href', elIphone.linkeProjects);
+  const contenidoProjects = document.createElement("div");
+  contenidoProjects.classList.add("contenido");
+  const aShareLinkProjects = document.createElement("a");
+  aShareLinkProjects.classList.add("share_link");
+  aShareLinkProjects.setAttribute("href", elIphone.linkeProjects);
   aShareLinkProjects.innerText = `${elIphone.textProjects}`;
 
   contenidoProjects.appendChild(aShareLinkProjects);
   //*contact
-  const contenidoContact = document.createElement('div');
-  contenidoContact.classList.add('contenido');
-  const aShareLinkContact = document.createElement('a');
-  aShareLinkContact.classList.add('share_link');
-  aShareLinkContact.setAttribute('href', elIphone.linkeContact);
+  const contenidoContact = document.createElement("div");
+  contenidoContact.classList.add("contenido");
+  const aShareLinkContact = document.createElement("a");
+  aShareLinkContact.classList.add("share_link");
+  aShareLinkContact.setAttribute("href", elIphone.linkeContact);
   aShareLinkContact.innerText = `${elIphone.textContact}`;
 
   contenidoContact.appendChild(aShareLinkContact);
   //*
   //----
   //** Contatenacion de todo los elementos
-  redContainer.append(contenidoHome, contenidoAbout, contenidoProjects, contenidoContact);
+  redContainer.append(
+    contenidoHome,
+    contenidoAbout,
+    contenidoProjects,
+    contenidoContact
+  );
 
   containerMenuMobile.appendChild(redContainer);
   menuIcon.append(imgOpen, imgClose);
 
   navarMobile.append(menuIcon, containerMenuMobile);
-  header.append(navarMobile)
+  header.append(navarMobile);
 });
 //!--------
 elementsHTMlDesktop = [
   {
-    linkeHome: 'home',
-    textHome: 'Home',
+    linkeHome: "home",
+    textHome: "Home",
 
-    linkeAbout: 'about',
-    textAbout: 'About',
+    linkeAbout: "about",
+    textAbout: "About",
 
-    linkeProjects: 'projects',
-    textProjects: 'Projects',
+    linkeProjects: "projects",
+    textProjects: "Projects",
 
-    linkeContact: 'contact',
-    textContact: 'Contact'
-  }
-]
+    linkeContact: "contact",
+    textContact: "Contact",
+  },
+];
 
 elementsHTMlDesktop.forEach((elDesktop) => {
-  const navarDesktop = document.createElement('nav');
-  navarDesktop.classList.add('navar--desktop');
+  const navarDesktop = document.createElement("nav");
+  navarDesktop.classList.add("navar--desktop");
 
-  const containerMenuDesktop = document.createElement('div')
-  containerMenuDesktop.classList.add('container_menu-desktop');
-  const redContainer = document.createElement('div');
-  redContainer.classList.add('red_container');
+  const containerMenuDesktop = document.createElement("div");
+  containerMenuDesktop.classList.add("container_menu-desktop");
+  const redContainer = document.createElement("div");
+  redContainer.classList.add("red_container");
   //----
   //*home
-  const contenidoHome = document.createElement('div');
-  contenidoHome.classList.add('contenido');
-  const aShareLinkHome = document.createElement('a');
-  aShareLinkHome.classList.add('share_link');
-  aShareLinkHome.setAttribute('href', elDesktop.linkeHome);
+  const contenidoHome = document.createElement("div");
+  contenidoHome.classList.add("contenido");
+  const aShareLinkHome = document.createElement("a");
+  aShareLinkHome.classList.add("share_link");
+  aShareLinkHome.setAttribute("href", elDesktop.linkeHome);
   aShareLinkHome.innerText = `${elDesktop.textHome}`;
 
   contenidoHome.appendChild(aShareLinkHome);
   //*about
-  const contenidoAbout = document.createElement('div');
-  contenidoAbout.classList.add('contenido');
-  const aShareLinkAbout = document.createElement('a');
-  aShareLinkAbout.classList.add('share_link');
-  aShareLinkAbout.setAttribute('href', elDesktop.linkeAbout);
+  const contenidoAbout = document.createElement("div");
+  contenidoAbout.classList.add("contenido");
+  const aShareLinkAbout = document.createElement("a");
+  aShareLinkAbout.classList.add("share_link");
+  aShareLinkAbout.setAttribute("href", elDesktop.linkeAbout);
   aShareLinkAbout.innerText = `${elDesktop.textAbout}`;
 
   contenidoAbout.appendChild(aShareLinkAbout);
   //*projects
-  const contenidoProjects = document.createElement('div');
-  contenidoProjects.classList.add('contenido');
-  const aShareLinkProjects = document.createElement('a');
-  aShareLinkProjects.classList.add('share_link');
-  aShareLinkProjects.setAttribute('href', elDesktop.linkeProjects);
+  const contenidoProjects = document.createElement("div");
+  contenidoProjects.classList.add("contenido");
+  const aShareLinkProjects = document.createElement("a");
+  aShareLinkProjects.classList.add("share_link");
+  aShareLinkProjects.setAttribute("href", elDesktop.linkeProjects);
   aShareLinkProjects.innerText = `${elDesktop.textProjects}`;
 
   contenidoProjects.appendChild(aShareLinkProjects);
   //*contact
-  const contenidoContact = document.createElement('div');
-  contenidoContact.classList.add('contenido');
-  const aShareLinkContact = document.createElement('a');
-  aShareLinkContact.classList.add('share_link');
-  aShareLinkContact.setAttribute('href', elDesktop.linkeContact);
+  const contenidoContact = document.createElement("div");
+  contenidoContact.classList.add("contenido");
+  const aShareLinkContact = document.createElement("a");
+  aShareLinkContact.classList.add("share_link");
+  aShareLinkContact.setAttribute("href", elDesktop.linkeContact);
   aShareLinkContact.innerText = `${elDesktop.textContact}`;
 
   contenidoContact.appendChild(aShareLinkContact);
   //*concatenacion de los elementos
-  redContainer.append(contenidoHome, contenidoAbout, contenidoProjects, contenidoContact);
+  redContainer.append(
+    contenidoHome,
+    contenidoAbout,
+    contenidoProjects,
+    contenidoContact
+  );
 
   containerMenuDesktop.appendChild(redContainer);
   navarDesktop.appendChild(containerMenuDesktop);
-  
+
   header.appendChild(navarDesktop);
-})
-
-
+});
 
 //navar iconos
 const menuHamberIconOpen = document.querySelector(".menu");
@@ -182,4 +190,3 @@ function closeMobileMenu() {
   menuHamberIconClose.classList.add("inactive");
   containerMenuMobile.classList.add("inactive");
 }
-

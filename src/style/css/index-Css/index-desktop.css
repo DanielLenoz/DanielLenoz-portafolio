@@ -45,18 +45,18 @@ nav {
 .contenido>.share_link {
     font-size: var(--desktop-titles-size);
 } */
-main{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 10rem;
-    margin: 0 2.7rem;
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 10rem;
+  margin: 0 2.7rem;
 }
-.conten_text{
-    align-self: center;
+.conten_text {
+  align-self: center;
 }
-.text_static{
-    font-size: 50px;
+.text_static {
+  font-size: 50px;
 }
-.container_image--daniel{
-    display: block;
+.container_image--daniel {
+  display: block;
 }
