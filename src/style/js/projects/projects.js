@@ -8,7 +8,8 @@ const projectsElements = [
     contactImgDirection: "contact_img-left",
     imgDirection: "img-left",
     brilloPosition: "brillo-left",
-
+    //** animacion scroll*/
+    dataAos:"fade-up-right",
     //**contenido de los contenedores */
     subtitle: "Proyectos Destacados",
     title: "Portafolio",
@@ -26,7 +27,8 @@ const projectsElements = [
     contactImgDirection: "contact_img-right",
     imgDirection: "img-right",
     brilloPosition: "brillo-right",
-
+    //** animacion scroll*/
+    dataAos:"flip-right",
     //**contenido de los contenedores */
 
     subtitle: "Proyectos Destacados",
@@ -43,6 +45,8 @@ const projectsElements = [
 projectsElements.forEach((the) => {
   const contactProject = document.createElement("section");
   contactProject.classList.add("contact_project", the.projectsDirection);
+  // contactProject.dataset.aos = 'fade-up-right';
+  contactProject.setAttribute('data-aos', the.dataAos);
 
   const containerTextProjects = document.createElement("article");
   containerTextProjects.classList.add(
