@@ -1,0 +1,125 @@
+main {
+  background: var(--background-main-color);
+  padding: 0 3rem 6rem;
+}
+.container_text--sabiduria {
+  padding: 5rem 1rem 2rem;
+  text-align: center;
+  position: relative;
+}
+.text_sabiduria {
+  font-size: var(--iphone-texts-size);
+  font-weight: var(--texts-weight);
+  line-height: var(--iphone-texts-height);
+  font-family: var(--texts-font-family);
+  line-break: auto;
+  position: relative;
+  z-index: 1;
+}
+.brillo-top {
+  width: 15.4rem;
+  height: 16.2rem;
+  border-radius: 100%;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(255, 230, 0, 0.46) 0%,
+    rgba(245, 70, 1, 0.28) 53.12%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  position: absolute;
+  top: -3rem;
+  right: 0rem;
+  pointer-events: none;
+}
+.brillo-bottom {
+  width: 15.4rem;
+  height: 16.2rem;
+  border-radius: 100%;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(255, 230, 0, 0.46) 0%,
+    rgba(245, 70, 1, 0.28) 53.12%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  position: absolute;
+  bottom: -1rem;
+  left: -4rem;
+  pointer-events: none;
+}
+
+.titles_certificados {
+  font-size: var(--iphone-titles-bold-size);
+  font-weight: var(--titles-bold-weight);
+  font-family: var(--titles-font-family);
+  margin: 2rem 0 1rem;
+}
+.container_certificados {
+  position: relative;
+}
+.container_img--certificados > img {
+  padding-right: 1rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container_carusel {
+  overflow: hidden;
+}
+.button-left {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  width: 8%;
+  height: 81%;
+  background: rgba(44, 39, 55, 0.79);
+  top: 3.4rem;
+}
+.button-left > img {
+  width: 40%;
+  height: 13%;
+}
+.button-right {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  width: 8%;
+  height: 81%;
+  background: rgba(44, 39, 55, 0.79);
+  top: 3.4rem;
+  right: -1px;
+}
+.button-right > img {
+  width: 40%;
+  height: 13%;
+}
+
+@media (min-width: 768px) {
+  .button-left {
+    width: 4%;
+    height: 70%;
+  }
+  .button-right {
+    width: 4%;
+    height: 70%;
+  }
+}
+
+.indicadores_carusel .glider-dot {
+  display: block;
+  width: 3rem;
+  height: 4px;
+  background: var(--background-botton-color);
+  opacity: 0.2;
+  border-radius: 0;
+}
+.indicadores_carusel .glider-dot:hover {
+  opacity: 0.5;
+}
+.indicadores_carusel .glider-dot.active {
+  opacity: 1;
+  background: var(--background-botton-color);
+}

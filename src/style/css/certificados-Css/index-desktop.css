@@ -1,0 +1,12 @@
+/* !temporal e iphone */
+@media (min-width: 1440px) {
+    .button-left {
+        width: 4%;
+        height: 86%;
+    }
+
+    .button-right {
+        width: 4%;
+        height: 86%;
+    }
+}
