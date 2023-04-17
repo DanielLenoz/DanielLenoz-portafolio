@@ -7,16 +7,16 @@ const elementsHTMlIphone = [
     imgOpen: "../../src/img/assets/icons-template/menu_open.svg",
     imgClose: "../../src/img/assets/icons-template/menu_close.svg",
 
-    linkeHome: "home",
+    linkeHome: "../index.html",
     textHome: "Home",
 
-    linkeAbout: "about",
+    linkeAbout: "./about.html",
     textAbout: "About",
 
-    linkeProjects: "projects",
+    linkeProjects: "./projects.html",
     textProjects: "Projects",
 
-    linkeContact: "contact",
+    linkeContact: "#",
     textContact: "Contact",
   },
 ];
@@ -102,16 +102,16 @@ elementsHTMlIphone.forEach((elIphone) => {
 //!--------
 elementsHTMlDesktop = [
   {
-    linkeHome: "home",
+    linkeHome: "../index.html",
     textHome: "Home",
 
-    linkeAbout: "about",
+    linkeAbout: "./about.html",
     textAbout: "About",
 
-    linkeProjects: "projects",
+    linkeProjects: "./projects.html",
     textProjects: "Projects",
 
-    linkeContact: "contact",
+    linkeContact: "#",
     textContact: "Contact",
   },
 ];

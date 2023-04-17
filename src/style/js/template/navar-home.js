@@ -102,16 +102,16 @@ elementsHTMlIphone.forEach((elIphone) => {
 //!--------
 elementsHTMlDesktop = [
   {
-    linkeHome: "home",
+    linkeHome: "./index.html",
     textHome: "Home",
 
-    linkeAbout: "about",
+    linkeAbout: "./html/about.html",
     textAbout: "About",
 
-    linkeProjects: "projects",
+    linkeProjects: "./html/projects.html",
     textProjects: "Projects",
 
-    linkeContact: "contact",
+    linkeContact: "#",
     textContact: "Contact",
   },
 ];

@@ -12,16 +12,16 @@ const elementsHTMlIphones = [
     textFooter:
       "la organización es el principio de la planeación y el nacimiento de la creación",
 
-    linkeHome: "home",
+    linkeHome: "../index.html",
     textHome: "Home",
 
-    linkeAbout: "about",
+    linkeAbout: "./about.html",
     textAbout: "About",
 
-    linkeProjects: "projects",
+    linkeProjects: "./projects.html",
     textProjects: "Projects",
 
-    linkeContact: "contact",
+    linkeContact: "#",
     textContact: "Contact",
   },
 ];
