@@ -1,22 +1,22 @@
-const containerCaruelDiseno = document.querySelector('.container-diseno')
+const containerCaruelDiseno = document.querySelector(".container-diseno");
 
 const disenoElementos = [
-    {
-        image: "../../src/img/img-diseno/sistemas-de-diseño.jpg"
-    },
-    {
-        image: "../../src/img/img-diseno/diseño-para-programadores.jpg"
-    },
-]
+  {
+    image: "../../src/img/img-diseno/sistemas-de-diseño.jpg",
+  },
+  {
+    image: "../../src/img/img-diseno/diseño-para-programadores.jpg",
+  },
+];
 
 disenoElementos.forEach((disenos) => {
-    const containerImg = document.createElement("figure");
-    containerImg.classList.add("container_img--certificados");
+  const containerImg = document.createElement("figure");
+  containerImg.classList.add("container_img--certificados");
 
-    const imgDiseno = document.createElement("img");
-    imgDiseno.setAttribute("src", disenos.image);
+  const imgDiseno = document.createElement("img");
+  imgDiseno.setAttribute("src", disenos.image);
 
-    containerImg.appendChild(imgDiseno);
+  containerImg.appendChild(imgDiseno);
 
-    containerCaruelDiseno.appendChild(containerImg);
-})
+  containerCaruelDiseno.appendChild(containerImg);
+});

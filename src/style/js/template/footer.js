@@ -24,8 +24,9 @@ const elementsHTMlIphones = [
     linkeContact: "#",
     textContact: "Contact",
 
-    linkLinkedin: "https://www.linkedin.com/in/daniel-steven-rodriguez-verano-417472241/",
-    linkGithub:"https://github.com/DanielLenoz",
+    linkLinkedin:
+      "https://www.linkedin.com/in/daniel-steven-rodriguez-verano-417472241/",
+    linkGithub: "https://github.com/DanielLenoz",
   },
 ];
 
@@ -83,17 +84,16 @@ elementsHTMlIphones.forEach((elIphone) => {
   const containerIconsContact = document.createElement("article");
   containerIconsContact.classList.add("container_icons--contact");
   const linkLinkedin = document.createElement("a");
-  linkLinkedin.setAttribute('href', elIphone.linkLinkedin);
+  linkLinkedin.setAttribute("href", elIphone.linkLinkedin);
   const imgLinkedin = document.createElement("img");
   imgLinkedin.setAttribute("src", elIphone.imgLinkedin);
   linkLinkedin.appendChild(imgLinkedin);
 
   const linkGithub = document.createElement("a");
-  linkGithub.setAttribute('href', elIphone.linkGithub);
+  linkGithub.setAttribute("href", elIphone.linkGithub);
   const imgGithub = document.createElement("img");
   imgGithub.setAttribute("src", elIphone.imgGithub);
   linkGithub.appendChild(imgGithub);
-
 
   containerIconsContact.append(linkLinkedin, linkGithub);
 
