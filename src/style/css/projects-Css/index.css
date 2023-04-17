@@ -125,7 +125,7 @@ main {
 .contact_img-right {
   box-shadow: -18px -14px 15px rgba(44, 39, 55, 0.79);
 }
-.container_img--projects img {
+.img--projects img{
   border-radius: 14px;
   background-size: cover;
   background-position: center;
