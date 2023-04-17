@@ -4,19 +4,19 @@ const header = document.querySelector("header");
 
 const elementsHTMlIphone = [
   {
-    imgOpen: "../src/img/assets/icons-template/menu_open.svg",
-    imgClose: "../src/img/assets/icons-template/menu_close.svg",
+    imgOpen: "./src/img/assets/icons-template/menu_open.svg",
+    imgClose: "./src/img/assets/icons-template/menu_close.svg",
 
-    linkeHome: "home",
+    linkeHome: "./index.html",
     textHome: "Home",
 
-    linkeAbout: "about",
+    linkeAbout: "./public/about.html",
     textAbout: "About",
 
-    linkeProjects: "projects",
+    linkeProjects: "./public/projects.html",
     textProjects: "Projects",
 
-    linkeContact: "contact",
+    linkeContact: "#",
     textContact: "Contact",
   },
 ];
@@ -105,10 +105,10 @@ elementsHTMlDesktop = [
     linkeHome: "./index.html",
     textHome: "Home",
 
-    linkeAbout: "./html/about.html",
+    linkeAbout: "./public/about.html",
     textAbout: "About",
 
-    linkeProjects: "./html/projects.html",
+    linkeProjects: "./public/projects.html",
     textProjects: "Projects",
 
     linkeContact: "#",

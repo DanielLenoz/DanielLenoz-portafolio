@@ -2,10 +2,10 @@ const containerCaruelDiseno = document.querySelector(".container-diseno");
 
 const disenoElementos = [
   {
-    image: "../../src/img/img-cursos-diseno/sistemas-de-diseño.jpg",
+    image: "../src/img/img-cursos-diseno/sistemas-de-diseño.jpg",
   },
   {
-    image: "../../src/img/img-cursos-diseno/diseño-para-programadores.jpg",
+    image: "../src/img/img-cursos-diseno/diseño-para-programadores.jpg",
   },
 ];
 

@@ -2,16 +2,16 @@ const containerCaruelFinanzas = document.querySelector(".container-finanzas");
 
 const finanzasElementos = [
   {
-    image: "../../src/img/img-cursos-finanzas/crear-un-presupuesto-personal.jpg",
+    image: "../src/img/img-cursos-finanzas/crear-un-presupuesto-personal.jpg",
   },
   {
-    image: "../../src/img/img-cursos-finanzas/presupuesto-y-flujo-de-caja.jpg",
+    image: "../src/img/img-cursos-finanzas/presupuesto-y-flujo-de-caja.jpg",
   },
   {
-    image: "../../src/img/img-cursos-finanzas/finanzas-personales.jpg",
+    image: "../src/img/img-cursos-finanzas/finanzas-personales.jpg",
   },
   {
-    image: "../../src/img/img-cursos-finanzas/introduccion-a-educacion-financiera.jpg",
+    image: "../src/img/img-cursos-finanzas/introduccion-a-educacion-financiera.jpg",
   },
 ];
 

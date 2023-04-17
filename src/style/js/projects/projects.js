@@ -19,8 +19,8 @@ const projectsElements = [
     description:
       "proyecto de portafolio v1 la primera versión de una de mis creacion. siempre actualizando los proyectos para que sean la mejor version de sigo mismos",
 
-    imgDescktop: "../../src/img/img-projects/img-desktop/portafolio-img-desktop.jpg",
-    imgIphone: "../../src/img/img-projects/img-iphone/portafolio-img-iphone.jpg",
+    imgDescktop: "../src/img/img-projects/img-desktop/portafolio-img-desktop.jpg",
+    imgIphone: "../src/img/img-projects/img-iphone/portafolio-img-iphone.jpg",
   },
   {
     projectsDirection: "projects-right",
@@ -41,8 +41,8 @@ const projectsElements = [
     description:
       "proyecto de portafolio v1 la primera versión de una de mis creacion. siempre actualizando los proyectos para que sean la mejor version de sigo mismos",
 
-    imgDescktop: "../../src/img/img-projects/img-desktop/portafolio-img-desktop.jpg",
-    imgIphone: "../../src/img/img-projects/img-iphone/portafolio-img-iphone.jpg",
+    imgDescktop: "../src/img/img-projects/img-desktop/portafolio-img-desktop.jpg",
+    imgIphone: "../src/img/img-projects/img-iphone/portafolio-img-iphone.jpg",
   },
 ];
 
@@ -97,13 +97,13 @@ projectsElements.forEach((the) => {
   const linkesGithub = document.createElement("a");
   linkesGithub.setAttribute('href', the.linkesGithub);
   const iconGithub = document.createElement("img");
-  iconGithub.setAttribute("src", "../../src/img/assets/icons-redes/github.svg");
+  iconGithub.setAttribute("src", "../src/img/assets/icons-redes/github.svg");
   linkesGithub.appendChild(iconGithub)
 
   const linksShare = document.createElement('a');
   linksShare.setAttribute('href', the.linksShare)
   const iconShare = document.createElement("img");
-  iconShare.setAttribute("src", "../../src/img/assets/icons-redes/share.svg");
+  iconShare.setAttribute("src", "../src/img/assets/icons-redes/share.svg");
   linksShare.appendChild(iconShare)
   containerIconsShare.append(linkesGithub, linksShare);
 
