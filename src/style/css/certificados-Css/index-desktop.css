@@ -1,5 +1,21 @@
+.container_text--sabiduria{
+    padding: 5rem 20rem 6rem;
+}
+
+.text_sabiduria{
+    font-size: var(--desktop-titles-size);
+}
+.brillo-top{
+    right: 15rem;
+}
+.brillo-bottom{
+    left: 17rem;
+}
+.titles_certificados{
+    font-size: var(--desktop-titles-bold-size);
+}
 /* !temporal e iphone */
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
     .button-left {
         width: 4%;
         height: 86%;

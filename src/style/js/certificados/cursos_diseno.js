@@ -2,8 +2,11 @@ const containerCaruelDiseno = document.querySelector('.container-diseno')
 
 const disenoElementos = [
     {
-        image: "../../src/img/img-ingles/B1-relative-pronouns-and-clauses.jpg"
-    }
+        image: "../../src/img/img-diseno/sistemas-de-diseño.jpg"
+    },
+    {
+        image: "../../src/img/img-diseno/diseño-para-programadores.jpg"
+    },
 ]
 
 disenoElementos.forEach((disenos) => {

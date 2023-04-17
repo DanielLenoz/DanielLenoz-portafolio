@@ -8,8 +8,8 @@ main {
   position: relative;
 }
 .text_sabiduria {
-  font-size: var(--iphone-texts-size);
-  font-weight: var(--texts-weight);
+  font-size: var(--iphone-titles-size);
+  font-weight: var(--titles-weight);
   line-height: var(--iphone-texts-height);
   font-family: var(--texts-font-family);
   line-break: auto;

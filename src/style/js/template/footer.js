@@ -10,7 +10,7 @@ const elementsHTMlIphones = [
     imgLogo: "../../src/img/assets/icons-redes/logo_daniel.svg",
 
     textFooter:
-      "la organización es el principio de la planeación y el nacimiento de la creacion",
+      "la organización es el principio de la planeación y el nacimiento de la creación",
 
     linkeHome: "home",
     textHome: "Home",
