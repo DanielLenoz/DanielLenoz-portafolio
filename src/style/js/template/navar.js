@@ -102,6 +102,8 @@ elementsHTMlIphone.forEach((elIphone) => {
 //!--------
 elementsHTMlDesktop = [
   {
+    logo:"../src/img/assets/icons-redes/logo_daniel.svg",
+
     linkeHome: "../index.html",
     textHome: "Home",
 
@@ -124,6 +126,15 @@ elementsHTMlDesktop.forEach((elDesktop) => {
   containerMenuDesktop.classList.add("container_menu-desktop");
   const redContainer = document.createElement("div");
   redContainer.classList.add("red_container");
+  //----
+  const containerLogo = document.createElement("div");
+  containerLogo.classList.add("container_logo");
+  const imgLogo = document.createElement("img");
+  imgLogo.setAttribute('src', elDesktop.logo);
+  const textLogo = document.createElement("p");
+  textLogo.classList.add("text_logo");
+  textLogo.innerText = "Portafolio";
+  containerLogo.append(imgLogo, textLogo);
   //----
   //*home
   const contenidoHome = document.createElement("div");
@@ -170,7 +181,7 @@ elementsHTMlDesktop.forEach((elDesktop) => {
   );
 
   containerMenuDesktop.appendChild(redContainer);
-  navarDesktop.appendChild(containerMenuDesktop);
+  navarDesktop.append(containerLogo,containerMenuDesktop);
 
   header.appendChild(navarDesktop);
 });

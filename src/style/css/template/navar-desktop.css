@@ -11,14 +11,27 @@ header {
 .navar--desktop {
   display: block;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
 }
 
 nav {
   height: 6.2rem;
 }
-
+.container_logo {
+  display: flex;
+  width: 90%;
+  height: 90%;
+  padding-left: 4rem;
+}
+.text_logo {
+  font-size: var(--desktop-titles-size);
+  font-weight: var(--texts-weight);
+  font-family: var(--unic-font-family);
+  color: var(--fonts-color);
+  align-self: center;
+  padding-left: 1rem;
+}
 .red_container {
   display: flex;
   height: auto;
