@@ -8,8 +8,8 @@ const projectsElements = [
     contactImgDirection: "contact_img-left",
     imgDirection: "img-left",
     brilloPosition: "brillo-left",
-    linkesGithub: "https://github.com/DanielLenoz",
-    linksShare: "", 
+    linkesGithub: "https://github.com/DanielLenoz/DanielLenoz-portafolio",
+    linksShare: "https://daniellenoz.github.io/DanielLenoz-portafolio/", 
     //** animacion scroll*/
     dataAos: "fade-up-right",
     //**contenido de los contenedores */
@@ -17,7 +17,7 @@ const projectsElements = [
     title: "Portafolio",
 
     description:
-      "proyecto de portafolio v1 la primera versión de una de mis creacion. siempre actualizando los proyectos para que sean la mejor version de sigo mismos",
+      "proyecto de portafolio v2 la segunda versión de una de mi creacion. siempre actualizando los proyectos para que sean la mejor version de sigo mismos",
 
     imgDescktop: "../src/img/img-projects/img-desktop/portafolio-img-desktop.jpg",
     imgIphone: "../src/img/img-projects/img-iphone/portafolio-img-iphone.jpg",
