@@ -107,7 +107,9 @@ main {
     height: 70%;
   }
 }
-
+.container_certificados .indicadores_carusel{
+  display: none;
+}
 .indicadores_carusel .glider-dot {
   display: block;
   width: 3rem;

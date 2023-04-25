@@ -14,6 +14,9 @@
 .titles_certificados {
   font-size: var(--desktop-titles-bold-size);
 }
+.container_certificados .indicadores_carusel {
+  display: flex;
+}
 /* !temporal e iphone */
 @media (min-width: 1024px) {
   .button-left {
