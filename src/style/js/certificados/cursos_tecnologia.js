@@ -96,12 +96,12 @@ const tecnologiaElementos = [
     altDescription:"curso de terminal y linea de comandos",
   },
   {
-    image: "../src/img/img-cursos-technologia/rework-windows.jpg",
-    altDescription:"curso de rework windows",
+    image: "../src/img/img-cursos-technologia/prework-windows.jpg",
+    altDescription:"curso de prework windows",
   },
   {
     image:
-      "../src/img/img-cursos-technologia/fundamentos-de-ingenieria-de-software.jpg.jpg",
+      "../src/img/img-cursos-technologia/fundamentos-de-ingenieria-de-software.jpg",
     altDescription:"curso de fundamentos de ingenieria de software",
   },
   {
