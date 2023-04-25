@@ -17,10 +17,10 @@ const projectsElements = [
     title: "Portafolio",
 
     description:
-      "proyecto de portafolio v2 la segunda versión de una de mi creacion. siempre actualizando los proyectos para que sean la mejor version de sigo mismos",
+      "Proyecto de portafolio v2 la segunda versión de una de mi creacion. siempre actualizando los proyectos para que sean la mejor version de sigo mismos",
 
-    imgDescktop: "../src/img/img-projects/img-desktop/portafolio-img-desktop.jpg",
-    imgIphone: "../src/img/img-projects/img-iphone/portafolio-img-iphone.jpg",
+    imgDescktop: "../src/img/img-projects/img-desktop/projecto-portafolio-desktop.jpg",
+    imgIphone: "../src/img/img-projects/img-iphone/projecto-portafolio-iphone.jpg",
     altDescription: "proyecto portafolio",
   },
   {
@@ -30,20 +30,20 @@ const projectsElements = [
     contactImgDirection: "contact_img-right",
     imgDirection: "img-right",
     brilloPosition: "brillo-right",
-    linkesGithub: "https://github.com/DanielLenoz",
-    linksShare: "", 
+    linkesGithub: "https://github.com/DanielLenoz/DanielLenoz-blog",
+    linksShare: "https://daniellenoz.github.io/DanielLenoz-blog/", 
     //** animacion scroll*/
     dataAos: "flip-right",
     //**contenido de los contenedores */
 
     subtitle: "Proyectos Destacados",
-    title: "Portafolio",
+    title: "Blog",
 
     description:
-      "proyecto de portafolio v1 la primera versión de una de mis creacion. siempre actualizando los proyectos para que sean la mejor version de sigo mismos",
+      "Projecto blog v2 la segunda versión de una de mis mejores creación, siempre se actualizan de contenido sobre blogs personales donde hablo de mis experiencias y creaciónes ",
 
-    imgDescktop: "../src/img/img-projects/img-desktop/portafolio-img-desktop.jpg",
-    imgIphone: "../src/img/img-projects/img-iphone/portafolio-img-iphone.jpg",
+    imgDescktop: "../src/img/img-projects/img-desktop/projecto-blog-desktop.jpg",
+    imgIphone: "../src/img/img-projects/img-iphone/projecto-blog-iphone.jpg",
     altDescription:"proyecto blog",
   },
 ];
