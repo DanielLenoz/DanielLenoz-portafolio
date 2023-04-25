@@ -47,24 +47,28 @@ elementsHTMlIphones.forEach((elIphone) => {
   const aShareLinkHome = document.createElement("a");
   aShareLinkHome.classList.add("share_link");
   aShareLinkHome.setAttribute("href", elIphone.linkeHome);
+  aShareLinkHome.setAttribute("aria-label", "devuelta al home");
   aShareLinkHome.innerText = `${elIphone.textHome}`;
 
   //*about
   const aShareLinkAbout = document.createElement("a");
   aShareLinkAbout.classList.add("share_link");
   aShareLinkAbout.setAttribute("href", elIphone.linkeAbout);
+  aShareLinkAbout.setAttribute("aria-lavel", "ir al area about");
   aShareLinkAbout.innerText = `${elIphone.textAbout}`;
 
   //*projects
   const aShareLinkProjects = document.createElement("a");
   aShareLinkProjects.classList.add("share_link");
   aShareLinkProjects.setAttribute("href", elIphone.linkeProjects);
+  aShareLinkProjects.setAttribute("aria-lavel", "ir al area de projectos");
   aShareLinkProjects.innerText = `${elIphone.textProjects}`;
 
   //*contact
   const aShareLinkContact = document.createElement("a");
   aShareLinkContact.classList.add("share_link");
   aShareLinkContact.setAttribute("href", elIphone.linkeContact);
+  aShareLinkContact.setAttribute("aria-lavel", "ir al area de contacto");
   aShareLinkContact.innerText = `${elIphone.textContact}`;
 
   footerMenu.append(
@@ -85,14 +89,18 @@ elementsHTMlIphones.forEach((elIphone) => {
   containerIconsContact.classList.add("container_icons--contact");
   const linkLinkedin = document.createElement("a");
   linkLinkedin.setAttribute("href", elIphone.linkLinkedin);
+  linkLinkedin.setAttribute("aria-label", "link del perfil de linkedin");
   const imgLinkedin = document.createElement("img");
   imgLinkedin.setAttribute("src", elIphone.imgLinkedin);
+  imgLinkedin.setAttribute("alt", "logo de linkedin");
   linkLinkedin.appendChild(imgLinkedin);
 
   const linkGithub = document.createElement("a");
   linkGithub.setAttribute("href", elIphone.linkGithub);
+  linkGithub.setAttribute("aria-label", "link del perfil de github");
   const imgGithub = document.createElement("img");
   imgGithub.setAttribute("src", elIphone.imgGithub);
+  imgGithub.setAttribute("alt", "logo de github");
   linkGithub.appendChild(imgGithub);
 
   containerIconsContact.append(linkLinkedin, linkGithub);
@@ -103,6 +111,7 @@ elementsHTMlIphones.forEach((elIphone) => {
   footerProperty.classList.add("footer_property");
   const imgLogo = document.createElement("img");
   imgLogo.setAttribute("src", elIphone.imgLogo);
+  imgLogo.setAttribute("alt", "logo de Daniel");
   const propertyText = document.createElement("p");
   propertyText.classList.add("property_text");
   propertyText.innerText = `© 2023 Daniel`;

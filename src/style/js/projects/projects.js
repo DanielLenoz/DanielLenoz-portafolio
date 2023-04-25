@@ -21,6 +21,7 @@ const projectsElements = [
 
     imgDescktop: "../src/img/img-projects/img-desktop/portafolio-img-desktop.jpg",
     imgIphone: "../src/img/img-projects/img-iphone/portafolio-img-iphone.jpg",
+    altDescription: "proyecto portafolio",
   },
   {
     projectsDirection: "projects-right",
@@ -43,6 +44,7 @@ const projectsElements = [
 
     imgDescktop: "../src/img/img-projects/img-desktop/portafolio-img-desktop.jpg",
     imgIphone: "../src/img/img-projects/img-iphone/portafolio-img-iphone.jpg",
+    altDescription:"proyecto blog",
   },
 ];
 
@@ -86,6 +88,7 @@ projectsElements.forEach((the) => {
   sourceImg.setAttribute("srcset", the.imgDescktop);
   const img = document.createElement("img");
   img.setAttribute("src", the.imgIphone);
+  img.setAttribute("alt", the.altDescription);
   pictureImg.append(sourceImg, img);
   figureImg.appendChild(pictureImg);
 
@@ -96,14 +99,18 @@ projectsElements.forEach((the) => {
   containerIconsShare.classList.add("container_icons--share");
   const linkesGithub = document.createElement("a");
   linkesGithub.setAttribute('href', the.linkesGithub);
+  linkesGithub.setAttribute("aria-label", "link del proyecto en github");
   const iconGithub = document.createElement("img");
   iconGithub.setAttribute("src", "../src/img/assets/icons-redes/github.svg");
+  iconGithub.setAttribute("alt", "icon de github");
   linkesGithub.appendChild(iconGithub)
 
   const linksShare = document.createElement('a');
-  linksShare.setAttribute('href', the.linksShare)
+  linksShare.setAttribute('href', the.linksShare);
+  linksShare.setAttribute("aria-label", "link para ver el proyecto")
   const iconShare = document.createElement("img");
   iconShare.setAttribute("src", "../src/img/assets/icons-redes/share.svg");
+  iconShare.setAttribute("alt", "icon share")
   linksShare.appendChild(iconShare)
   containerIconsShare.append(linkesGithub, linksShare);
 

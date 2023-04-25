@@ -31,11 +31,13 @@ elementsHTMlIphone.forEach((elIphone) => {
   const imgOpen = document.createElement("img");
   imgOpen.classList.add("menu");
   imgOpen.setAttribute("src", elIphone.imgOpen);
+  imgOpen.setAttribute("alt", "menu cerrado");
 
   const imgClose = document.createElement("img");
   imgClose.classList.add("close");
   imgClose.classList.add("inactive");
   imgClose.setAttribute("src", elIphone.imgClose);
+  imgClose.setAttribute("alt", "menu abierto");
   //---------------
   const containerMenuMobile = document.createElement("div");
   containerMenuMobile.classList.add("container_menu-mobile");
@@ -53,6 +55,7 @@ elementsHTMlIphone.forEach((elIphone) => {
   const aShareLinkHome = document.createElement("a");
   aShareLinkHome.classList.add("share_link");
   aShareLinkHome.setAttribute("href", elIphone.linkeHome);
+  aShareLinkHome.setAttribute("aria-label", "devuelta al home");
   aShareLinkHome.innerText = `${elIphone.textHome}`;
 
   contenidoHome.appendChild(aShareLinkHome);
@@ -62,6 +65,7 @@ elementsHTMlIphone.forEach((elIphone) => {
   const aShareLinkAbout = document.createElement("a");
   aShareLinkAbout.classList.add("share_link");
   aShareLinkAbout.setAttribute("href", elIphone.linkeAbout);
+  aShareLinkAbout.setAttribute("aria-lavel", "ir al area about");
   aShareLinkAbout.innerText = `${elIphone.textAbout}`;
 
   contenidoAbout.appendChild(aShareLinkAbout);
@@ -71,6 +75,7 @@ elementsHTMlIphone.forEach((elIphone) => {
   const aShareLinkProjects = document.createElement("a");
   aShareLinkProjects.classList.add("share_link");
   aShareLinkProjects.setAttribute("href", elIphone.linkeProjects);
+  aShareLinkProjects.setAttribute("aria-lavel", "ir al area de projectos");
   aShareLinkProjects.innerText = `${elIphone.textProjects}`;
 
   contenidoProjects.appendChild(aShareLinkProjects);
@@ -80,6 +85,7 @@ elementsHTMlIphone.forEach((elIphone) => {
   const aShareLinkContact = document.createElement("a");
   aShareLinkContact.classList.add("share_link");
   aShareLinkContact.setAttribute("href", elIphone.linkeContact);
+  aShareLinkContact.setAttribute("aria-lavel", "ir al area de contacto");
   aShareLinkContact.innerText = `${elIphone.textContact}`;
 
   contenidoContact.appendChild(aShareLinkContact);
@@ -131,6 +137,7 @@ elementsHTMlDesktop.forEach((elDesktop) => {
   containerLogo.classList.add("container_logo");
   const imgLogo = document.createElement("img");
   imgLogo.setAttribute('src', elDesktop.logo);
+  imgLogo.setAttribute("alt", "logo de Daniel");
   const textLogo = document.createElement("p");
   textLogo.classList.add("text_logo");
   textLogo.innerText = "Portafolio";
@@ -142,6 +149,7 @@ elementsHTMlDesktop.forEach((elDesktop) => {
   const aShareLinkHome = document.createElement("a");
   aShareLinkHome.classList.add("share_link");
   aShareLinkHome.setAttribute("href", elDesktop.linkeHome);
+  aShareLinkHome.setAttribute("aria-label", "devuelta al home");
   aShareLinkHome.innerText = `${elDesktop.textHome}`;
 
   contenidoHome.appendChild(aShareLinkHome);
@@ -151,6 +159,7 @@ elementsHTMlDesktop.forEach((elDesktop) => {
   const aShareLinkAbout = document.createElement("a");
   aShareLinkAbout.classList.add("share_link");
   aShareLinkAbout.setAttribute("href", elDesktop.linkeAbout);
+  aShareLinkAbout.setAttribute("aria-lavel", "ir al area about");
   aShareLinkAbout.innerText = `${elDesktop.textAbout}`;
 
   contenidoAbout.appendChild(aShareLinkAbout);
@@ -160,6 +169,7 @@ elementsHTMlDesktop.forEach((elDesktop) => {
   const aShareLinkProjects = document.createElement("a");
   aShareLinkProjects.classList.add("share_link");
   aShareLinkProjects.setAttribute("href", elDesktop.linkeProjects);
+  aShareLinkProjects.setAttribute("aria-lavel", "ir al area de projectos");
   aShareLinkProjects.innerText = `${elDesktop.textProjects}`;
 
   contenidoProjects.appendChild(aShareLinkProjects);
@@ -169,6 +179,7 @@ elementsHTMlDesktop.forEach((elDesktop) => {
   const aShareLinkContact = document.createElement("a");
   aShareLinkContact.classList.add("share_link");
   aShareLinkContact.setAttribute("href", elDesktop.linkeContact);
+  aShareLinkContact.setAttribute("aria-lavel", "ir al area de contacto");
   aShareLinkContact.innerText = `${elDesktop.textContact}`;
 
   contenidoContact.appendChild(aShareLinkContact);
