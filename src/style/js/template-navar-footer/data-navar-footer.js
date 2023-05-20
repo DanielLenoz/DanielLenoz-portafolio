@@ -17,9 +17,6 @@ const elementsNavarAndFooter = [
     projectsLink: "./public/projects.html",
     projectsText: "Projects",
 
-    certificatesLink: "./public/certificates.html",
-    certificatesText: "Certificates",
-
     contactLink: "#",
     contactText: "Contact",
 

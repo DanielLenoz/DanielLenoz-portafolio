@@ -11,10 +11,10 @@
 .brillo-bottom {
   left: 17rem;
 }
-.titles_certificados {
+.titles_certificates {
   font-size: var(--desktop-titles-bold-size);
 }
-.container_certificados .indicadores_carusel {
+.container_certificates .indicadores_carusel {
   display: flex;
 }
 /* !temporal e iphone */

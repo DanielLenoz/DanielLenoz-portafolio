@@ -7,8 +7,6 @@ class Navar {
     homeText,
     aboutLink,
     aboutText,
-    certificatesLink,
-    certificatesText,
     projectsLink,
     projectsText,
     contactLink,
@@ -21,8 +19,6 @@ class Navar {
     this.homeText = homeText;
     this.aboutLink = aboutLink;
     this.aboutText = aboutText;
-    this.certificatesLink = certificatesLink;
-    this.certificatesText = certificatesText;
     this.projectsLink = projectsLink;
     this.projectsText = projectsText;
     this.contactLink = contactLink;
@@ -162,16 +158,6 @@ class Navar {
 
     contenidoAbout.appendChild(aShareLinkAbout);
 
-    const contenidoCertificates = document.createElement("div");
-    contenidoCertificates.classList.add("contenido");
-    const aShareLinkCertificates = document.createElement("a");
-    aShareLinkCertificates.classList.add("share_link");
-    aShareLinkCertificates.setAttribute("href", this.certificatesLink);
-    aShareLinkCertificates.setAttribute("aria-label", "area de solo eventos");
-    aShareLinkCertificates.innerText = `${this.certificatesText}`;
-
-    contenidoCertificates.appendChild(aShareLinkCertificates);
-
     const contenidoProjects = document.createElement("div");
     contenidoProjects.classList.add("contenido");
     const aShareLinkProjects = document.createElement("a");
@@ -195,7 +181,6 @@ class Navar {
     redContainer.append(
       contenidoHome,
       contenidoAbout,
-      contenidoCertificates,
       contenidoProjects,
       contenidoContact
     );

@@ -47,16 +47,16 @@ main {
   pointer-events: none;
 }
 
-.titles_certificados {
+.titles_certificates {
   font-size: var(--iphone-titles-bold-size);
   font-weight: var(--titles-bold-weight);
   font-family: var(--titles-font-family);
   margin: 2rem 0 1rem;
 }
-.container_certificados {
+.container_certificates {
   position: relative;
 }
-.container_img--certificados > img {
+.container_img--certificates > img {
   padding-right: 1rem;
   background-size: cover;
   background-position: center;
@@ -107,7 +107,7 @@ main {
     height: 70%;
   }
 }
-.container_certificados .indicadores_carusel{
+.container_certificates .indicadores_carusel{
   display: none;
 }
 .indicadores_carusel .glider-dot {
