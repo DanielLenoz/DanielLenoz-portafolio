@@ -12,7 +12,7 @@ const updateelementsNavar = elementsNavarAndFooter.map((data) => {
 
     blogsLink: "./blogs.html",
 
-    eventsLink: "./events.html",
+    aboutLink: "./about.html",
 
     projectsLink: "./projects.html",
   };

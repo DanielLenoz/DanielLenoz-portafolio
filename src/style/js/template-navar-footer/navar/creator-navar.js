@@ -73,16 +73,6 @@ class Navar {
 
     contenidoAbout.appendChild(aShareLinkAbout);
 
-    const contenidoCertificates = document.createElement("div");
-    contenidoCertificates.classList.add("contenido");
-    const aShareLinkCertificates = document.createElement("a");
-    aShareLinkCertificates.classList.add("share_link");
-    aShareLinkCertificates.setAttribute("href", this.certificatesLink);
-    aShareLinkCertificates.setAttribute("aria-label", "area de solo eventos");
-    aShareLinkCertificates.innerText = `${this.certificatesText}`;
-
-    contenidoCertificates.appendChild(aShareLinkCertificates);
-
     const contenidoProjects = document.createElement("div");
     contenidoProjects.classList.add("contenido");
     const aShareLinkProjects = document.createElement("a");
@@ -106,7 +96,6 @@ class Navar {
     redContainer.append(
       contenidoHome,
       contenidoAbout,
-      contenidoCertificates,
       contenidoProjects,
       contenidoContact
     );

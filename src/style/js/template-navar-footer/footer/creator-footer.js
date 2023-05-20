@@ -3,10 +3,8 @@ class Footer extends Navar {
     logoSrc,
     homeLink,
     homeText,
-    blogsLink,
-    blogsText,
-    eventsLink,
-    eventsText,
+    aboutLink,
+    aboutText,
     projectsLink,
     projectsText,
     contactLink,
@@ -21,10 +19,8 @@ class Footer extends Navar {
       logoSrc,
       homeLink,
       homeText,
-      blogsLink,
-      blogsText,
-      eventsLink,
-      eventsText,
+      aboutLink,
+      aboutText,
       projectsLink,
       projectsText,
       contactLink,
@@ -56,17 +52,11 @@ class Footer extends Navar {
     aShareLinkHome.setAttribute("aria-label", "devuelta a la pagina principal");
     aShareLinkHome.innerText = `${this.homeText}`;
 
-    const aShareLinkBlogs = document.createElement("a");
-    aShareLinkBlogs.classList.add("share_link");
-    aShareLinkBlogs.setAttribute("href", this.blogsLink);
-    aShareLinkBlogs.setAttribute("aria-label", "area de solo blogs");
-    aShareLinkBlogs.innerText = `${this.blogsText}`;
-
-    const aShareLinkEvents = document.createElement("a");
-    aShareLinkEvents.classList.add("share_link");
-    aShareLinkEvents.setAttribute("href", this.eventsLink);
-    aShareLinkEvents.setAttribute("aria-label", "area de solo eventos");
-    aShareLinkEvents.innerText = `${this.eventsText}`;
+    const aShareLinkAbout = document.createElement("a");
+    aShareLinkAbout.classList.add("share_link");
+    aShareLinkAbout.setAttribute("href", this.aboutLink);
+    aShareLinkAbout.setAttribute("aria-label", "area de solo eventos");
+    aShareLinkAbout.innerText = `${this.aboutText}`;
 
     const aShareLinkProjects = document.createElement("a");
     aShareLinkProjects.classList.add("share_link");
@@ -82,8 +72,7 @@ class Footer extends Navar {
 
     footerMenu.append(
       aShareLinkHome,
-      aShareLinkBlogs,
-      aShareLinkEvents,
+      aShareLinkAbout,
       aShareLinkProjects,
       aShareLinkContact
     );
