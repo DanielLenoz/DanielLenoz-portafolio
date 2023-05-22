@@ -25,11 +25,11 @@ Este proyecto es mi portafolio personal, donde muestro mis habilidades, proyecto
 
 ## Capturas de pantalla
 
-<img align="center" alt="Rafa-Js" width="70%" src="https://user-images.githubusercontent.com/98136538/234428026-90d3f732-936e-4385-8bab-4723da2cd3e1.jpg"
+<img align="center" alt="Rafa-Js" width="70%" src="https://user-images.githubusercontent.com/98136538/234428026-90d3f732-936e-4385-8bab-4723da2cd3e1.jpg">
 
 > Diseño y formato de la version 1
 
-<img align="center" alt="Rafa-Js" width="70%" src="https://user-images.githubusercontent.com/98136538/234428531-6a3847c5-4dfb-4019-936c-48f243c97e29.jpg"
+<img align="center" alt="Rafa-Js" width="70%" src="https://user-images.githubusercontent.com/98136538/234428531-6a3847c5-4dfb-4019-936c-48f243c97e29.jpg">
 
 > Diseño y formato de la version 2
 
