@@ -10,10 +10,8 @@ window.addEventListener("load", function () {
     },
     responsive: [
       {
-        // screens greater than >= 775px
         breakpoint: 568,
         settings: {
-          // Set to `auto` and provide item width to adjust to viewport
           slidesToShow: "auto",
           slidesToScroll: "auto",
           itemWidth: 150,
@@ -21,7 +19,6 @@ window.addEventListener("load", function () {
         },
       },
       {
-        // screens greater than >= 1024px
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
@@ -45,10 +42,8 @@ window.addEventListener("load", function () {
     },
     responsive: [
       {
-        // screens greater than >= 775px
         breakpoint: 568,
         settings: {
-          // Set to `auto` and provide item width to adjust to viewport
           slidesToShow: "auto",
           slidesToScroll: "auto",
           itemWidth: 150,
@@ -56,7 +51,6 @@ window.addEventListener("load", function () {
         },
       },
       {
-        // screens greater than >= 1024px
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
@@ -80,10 +74,8 @@ window.addEventListener("load", function () {
     },
     responsive: [
       {
-        // screens greater than >= 775px
         breakpoint: 568,
         settings: {
-          // Set to `auto` and provide item width to adjust to viewport
           slidesToShow: "auto",
           slidesToScroll: "auto",
           itemWidth: 150,
@@ -91,7 +83,6 @@ window.addEventListener("load", function () {
         },
       },
       {
-        // screens greater than >= 1024px
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
@@ -115,10 +106,8 @@ window.addEventListener("load", function () {
     },
     responsive: [
       {
-        // screens greater than >= 775px
         breakpoint: 568,
         settings: {
-          // Set to `auto` and provide item width to adjust to viewport
           slidesToShow: "auto",
           slidesToScroll: "auto",
           itemWidth: 150,
@@ -126,7 +115,6 @@ window.addEventListener("load", function () {
         },
       },
       {
-        // screens greater than >= 1024px
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
@@ -150,10 +138,8 @@ window.addEventListener("load", function () {
     },
     responsive: [
       {
-        // screens greater than >= 775px
         breakpoint: 568,
         settings: {
-          // Set to `auto` and provide item width to adjust to viewport
           slidesToShow: "auto",
           slidesToScroll: "auto",
           itemWidth: 150,
@@ -161,7 +147,6 @@ window.addEventListener("load", function () {
         },
       },
       {
-        // screens greater than >= 1024px
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
