@@ -111,21 +111,21 @@
   row-gap: 15px;
   padding: 2.4rem;
 }
-.icon_experience--freelancer::before {
-  content: url("../../../img/assets/icons-template/Pluma-blanca.svg");
+.container_img--freelancer{
+  display: flex;
+  position: relative;
+  align-items: self-start;
+}
+.icon_freelancer{
+  position: absolute;
+}
+.icon_freelancer-color{
+  transform: scale(0);
+}
+.experience:hover .icon_freelancer-color{
+  transform: scale(1);
 }
 
-.experience:hover .icon_experience--freelancer::before {
-  content: url("../../../img/assets/icons-template/Pluma-color.svg");
-}
-
-.icon_experience--platzi::before {
-  content: url("../../../img/assets/icons-template/platzi-blanca.svg");
-}
-
-.experience:hover .icon_experience--platzi::before {
-  content: url("../../../img/assets/icons-template/platzi-color.svg");
-}
 .container_text--experience {
   display: grid;
   row-gap: 15px;
@@ -226,6 +226,21 @@
   border-radius: 13px;
   row-gap: 15px;
   padding: 2.4rem;
+}
+
+.containeri-img--icons{
+  display: flex;
+  position: relative;
+}
+
+.icon-blanco{
+  position: absolute;
+}
+.icon-color{
+  transform: scale(0);
+}
+.technology:hover .icon-color{
+  transform: scale(1);
 }
 
 .imgGit::before {
