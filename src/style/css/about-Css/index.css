@@ -242,43 +242,6 @@
 .technology:hover .icon-color{
   transform: scale(1);
 }
-
-.imgGit::before {
-  content: url(../../../img/assets/icons-tech/git-opaco.svg);
-}
-.technology--Git:hover .imgGit::before {
-  content: url(../../../img/assets/icons-tech/git-color.svg);
-}
-.imgVScode::before {
-  content: url(../../../img/assets/icons-tech/vscode-opaco.svg);
-}
-.technology--VScode:hover .imgVScode::before {
-  content: url(../../../img/assets/icons-tech/vscode-color.svg);
-}
-.imgHTML::before {
-  content: url(../../../img/assets/icons-tech/html-opaco.svg);
-}
-.technology--HTML:hover .imgHTML::before {
-  content: url(../../../img/assets/icons-tech/html-color.svg);
-}
-.imgCSS::before {
-  content: url(../../../img/assets/icons-tech/css-opaco.svg);
-}
-.technology--CSS:hover .imgCSS::before {
-  content: url(../../../img/assets/icons-tech/css-color.svg);
-}
-.imgJS::before {
-  content: url(../../../img/assets/icons-tech/js-opaco.svg);
-}
-.technology--JS:hover .imgJS::before {
-  content: url(../../../img/assets/icons-tech/js-color.svg);
-}
-.imgFigma::before {
-  content: url(../../../img/assets/icons-tech/figma-opaco.svg);
-}
-.technology--Figma:hover .imgFigma::before {
-  content: url(../../../img/assets/icons-tech/figma-color.svg);
-}
 .technology > h2 {
   font-size: var(--desktop-titles-size);
   font-weight: var(--titles-weight);
