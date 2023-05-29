@@ -1,5 +1,5 @@
 main {
-  background: var(--background-main-color);
+  background: var(--blue-night-400);
   padding: 0 3rem 6rem;
 }
 .container_text--sabiduria {
@@ -8,9 +8,9 @@ main {
   position: relative;
 }
 .text_sabiduria {
-  font-size: var(--iphone-titles-size);
-  font-weight: var(--titles-weight);
-  line-height: var(--iphone-texts-height);
+  font-size: var(--texts-iphone);
+  font-weight: var(--regular);
+  line-height: var(--texts-height-iphone);
   font-family: var(--texts-font-family);
   line-break: auto;
   position: relative;
@@ -23,7 +23,7 @@ main {
   background: radial-gradient(
     50% 50% at 50% 50%,
     rgba(255, 230, 0, 0.46) 0%,
-    rgba(245, 70, 1, 0.28) 53.12%,
+    rgba(245, 80, 1, 0.28) 53.12%,
     rgba(255, 0, 0, 0) 100%
   );
   position: absolute;
@@ -38,7 +38,7 @@ main {
   background: radial-gradient(
     50% 50% at 50% 50%,
     rgba(255, 230, 0, 0.46) 0%,
-    rgba(245, 70, 1, 0.28) 53.12%,
+    rgba(245, 80, 1, 0.28) 53.12%,
     rgba(255, 0, 0, 0) 100%
   );
   position: absolute;
@@ -48,8 +48,8 @@ main {
 }
 
 .titles_certificates {
-  font-size: var(--iphone-titles-bold-size);
-  font-weight: var(--titles-bold-weight);
+  font-size: var(--titles-iphone);
+  font-weight: var(--extraBold);
   font-family: var(--titles-font-family);
   margin: 2rem 0 1rem;
 }
@@ -72,8 +72,8 @@ main {
   align-items: center;
   z-index: 1;
   width: 8%;
-  height: 81%;
-  background: rgba(44, 39, 55, 0.79);
+  height: 86%;
+  background: var(--blue-night-low-500);
   top: 3.4rem;
 }
 .button-left > img {
@@ -87,10 +87,10 @@ main {
   align-items: center;
   z-index: 1;
   width: 8%;
-  height: 81%;
-  background: rgba(44, 39, 55, 0.79);
+  height: 86%;
+  background: var(--blue-night-low-500);
   top: 3.4rem;
-  right: -1px;
+  right: 8px;
 }
 .button-right > img {
   width: 40%;
@@ -100,11 +100,11 @@ main {
 @media (min-width: 768px) {
   .button-left {
     width: 4%;
-    height: 70%;
+    height: 80%;
   }
   .button-right {
     width: 4%;
-    height: 70%;
+    height: 80%;
   }
 }
 .container_certificates .indicadores_carusel{
@@ -114,7 +114,7 @@ main {
   display: block;
   width: 3rem;
   height: 4px;
-  background: var(--background-botton-color);
+  background: var(--sunGlow-sunRed-400g1);
   opacity: 0.2;
   border-radius: 0;
 }
@@ -123,5 +123,5 @@ main {
 }
 .indicadores_carusel .glider-dot.active {
   opacity: 1;
-  background: var(--background-botton-color);
+  background: var(--sunGlow-sunRed-400g1);
 }

@@ -1,6 +1,6 @@
 .container_about {
   display: grid;
-  background: var(--background-radial);
+  background: var(--unique-sunset);
   padding: 2rem 3rem;
 }
 .container_img--daniel {
@@ -8,15 +8,15 @@
   margin-bottom: 2.7rem;
 }
 .container_about--text .title {
-  font-size: var(--iphone-titles-bold-size);
-  font-weight: var(--titles-bold-weight);
+  font-size: var(--titles-iphone);
+  font-weight: var(--extraBold);
   font-family: var(--titles-font-family);
   margin-bottom: 2.5rem;
 }
 .container_about--text .text {
-  font-size: var(--iphone-texts-size);
-  font-weight: var(--texts-weight);
-  line-height: var(--iphone-texts-height);
+  font-size: var(--texts-iphone);
+  font-weight: var(--regular);
+  line-height: var(--texts-height-iphone);
   font-family: var(--texts-font-family);
   line-break: auto;
 }
@@ -25,13 +25,13 @@
   display: grid;
   justify-content: center;
   justify-items: center;
-  background: var(--background-main-color);
+  background: var(--blue-night-400);
 }
 .container_skills > h1 {
   margin: 4rem 0 3.3rem;
-  font-size: var(--iphone-titles-bold-size);
+  font-size: var(--titles-iphone);
+  font-weight: var(--extraBold);
   font-family: var(--titles-font-family);
-  font-weight: var(--titles-bold-weight);
 }
 
 .container_card--skills {
@@ -41,8 +41,7 @@
 }
 .skill {
   display: grid;
-  background: var(--background-relleno-card-color);
-  border: 1px solid var(--background-border-card-color);
+  background: var(--noble-black-500);
   border-radius: 13px;
   row-gap: 15px;
   padding: 2.4rem;
@@ -52,15 +51,15 @@
   row-gap: 15px;
 }
 .title_skill {
-  font-size: var(--iphone-titles-size);
+  font-size: var(--subtitles-iphone);
+  font-weight: var(--bold);
   font-family: var(--titles-font-family);
-  font-weight: var(--titles-weight);
 }
 .text_skill {
-  font-size: var(--iphone-texts-size);
+  font-size: var(--texts-iphone);
   font-family: var(--texts-font-family);
-  font-weight: var(--texts-weight);
-  line-height: var(--iphone-texts-height);
+  font-weight: var(--regular);
+  line-height: var(--texts-height-iphone);
   line-break: auto;
 }
 /** area de experiencia */
@@ -70,7 +69,7 @@
   justify-items: center;
   position: relative;
   z-index: 1;
-  background: var(--background-main-color);
+  background: var(--blue-night-400);
 }
 
 .container_experience .brillo {
@@ -90,9 +89,9 @@
 }
 .container_experience > h1 {
   margin: 4rem 2rem 3.3rem;
-  font-size: var(--iphone-titles-bold-size);
+  font-size: var(--titles-iphone);
   font-family: var(--titles-font-family);
-  font-weight: var(--titles-bold-weight);
+  font-weight: var(--extraBold);
   text-align: center;
 }
 .container_card--experience {
@@ -104,8 +103,8 @@
 }
 .experience {
   display: grid;
-  background: var(--background-relleno-card-color);
-  border: 1px solid var(--background-border-card-color);
+  background: var(--noble-black-500);
+  border: 1px solid var(--noble-black-300);
   justify-items: center;
   border-radius: 13px;
   row-gap: 15px;
@@ -133,19 +132,19 @@
 }
 .title_experience {
   text-align: center;
-  font-size: var(--iphone-titles-size);
+  font-size: var(--subtitles-iphone);
   font-family: var(--titles-font-family);
-  font-weight: var(--titles-weight);
-  background: var(--fonts-radial);
+  font-weight: var(--extraBold);
+  background: var(--sunGlow-sunRed-400g1);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .text_experience {
-  font-size: var(--iphone-texts-size);
+  font-size: var(--texts-iphone);
   font-family: var(--texts-font-family);
-  font-weight: var(--texts-weight);
-  line-height: var(--iphone-texts-height);
+  font-weight: var(--regular);
+  line-height: var(--texts-height-iphone);
   line-break: auto;
 }
 .button_experience--freelancer,
@@ -156,26 +155,22 @@
   border-radius: 13px;
   width: 16.2rem;
   height: 4.6rem;
-  color: var(--fonst-color);
-  background-image: var(--background-botton-color);
+  color: var(--white-bone-200);
+  background-image: var(--sunGlow-sunRed-400g1);
 }
 .button_experience--freelancer > a,
 .button_experience--platzi > a {
   text-align: center;
-  font-size: var(--iphone-texts-size);
-  font-weight: var(--texts-weight);
+  font-size: var(--texts-iphone);
+  font-weight: var(--bold);
   font-family: var(--texts-font-family);
-  color: var(--fonts-color);
+  color: var(--white-bone-200);
 }
 .experience--freelancer:hover .button_experience--freelancer {
-  background-image: linear-gradient(
-    225.45deg,
-    #5ce9f2 8.14%,
-    rgba(21, 58, 61, 0.68) 89.86%
-  );
+  background-image: linear-gradient(180deg, #2A8B93 0%, #12151C 100%);
 }
 .experience--platzi:hover .button_experience--platzi {
-  background-image: linear-gradient(180deg, #12151c 0%, #97c93e 100%);
+  background-image: linear-gradient(360deg, #7DAC29 0%, #12151C 100%);
 }
 
 /**area de technology*/
@@ -184,7 +179,7 @@
   justify-content: center;
   justify-items: center;
   position: relative;
-  background: var(--background-main-color);
+  background: var(--blue-night-400);
   padding-bottom: 5rem;
 }
 .container_technology .brillo {
@@ -198,15 +193,15 @@
     rgba(255, 0, 0, 0) 100%
   );
   position: absolute;
-  top: -4rem;
+  top: 0rem;
   right: 0rem;
   pointer-events: none;
 }
 .container_technology > h1 {
   margin: 4rem 0 3.3rem;
-  font-size: var(--iphone-titles-bold-size);
+  font-size: var(--titles-iphone);
   font-family: var(--titles-font-family);
-  font-weight: var(--titles-bold-weight);
+  font-weight: var(--extraBold);
   text-align: center;
   position: relative;
   z-index: 1;
@@ -221,11 +216,11 @@
 .technology {
   display: grid;
   justify-items: center;
-  background: var(--background-relleno-card-color);
-  border: 1px solid var(--background-border-card-color);
+  background: var(--noble-black-500);
+  border: 1px solid var(--noble-black-300);
   border-radius: 13px;
   row-gap: 15px;
-  padding: 2.4rem;
+  padding: 4.2rem;
 }
 
 .containeri-img--icons{
@@ -243,10 +238,10 @@
   transform: scale(1);
 }
 .technology > h2 {
-  font-size: var(--desktop-titles-size);
-  font-weight: var(--titles-weight);
+  font-size: var(--subtitles-desktop);
+  font-weight: var(--bold);
   font-family: var(--titles-font-family);
-  background: var(--fonts-radial);
+  background: var(--sunGlow-sunRed-400g1);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;

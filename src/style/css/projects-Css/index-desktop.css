@@ -3,25 +3,25 @@
   margin-bottom: 13rem;
 }
 .container_text--sabiduria > h1 {
-  font-size: var(--desktop-titles-bold-size);
+  font-size: var(--titles-desktop);
   margin: 2rem 0;
 }
 .container_text--sabiduria > p {
-  font-size: var(--desktop-texts-size);
-  line-height: var(--desktop-texts-height);
+  font-size: var(--texts-desktop);
+  line-height: var(--texts-height-desktop);
 }
 .container_projects {
   margin: 0 19rem;
 }
 .container_text--projects > h3 {
-  font-size: var(--desktop-texts-size);
+  font-size: var(--texts-desktop);
 }
 .container_text--projects > h1 {
-  font-size: var(--desktop-titles-bold-size);
+  font-size: var(--titles-desktop);
 }
 .description--projects {
-  font-size: var(--desktop-texts-size);
-  line-height: var(--desktop-texts-height);
+  font-size: var(--texts-desktop);
+  line-height: var(--texts-height-desktop);
 }
 .contact_project.projects-left {
   display: flex;

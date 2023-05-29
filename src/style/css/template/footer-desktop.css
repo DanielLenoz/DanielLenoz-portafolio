@@ -20,16 +20,16 @@
 }
 
 .share_link {
-  font-size: var(--desktop-texts-size);
-  line-height: var(--desktop-texts-height);
+  font-size: var(--texts-desktop);
+  line-height: var(--texts-height-desktop);
 }
 
 .footer-text {
-  font-size: var(--desktop-texts-size);
-  line-height: var(--desktop-texts-height);
+  font-size: var(--texts-desktop);
+  line-height: var(--texts-height-desktop);
 }
 
 .contact_text {
-  font-size: var(--desktop-texts-size);
-  line-height: var(--desktop-texts-height);
+  font-size: var(--texts-desktop);
+  line-height: var(--texts-height-desktop);
 }

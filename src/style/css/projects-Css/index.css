@@ -1,5 +1,5 @@
 main {
-  background: var(--background-main-color);
+  background: var(--blue-night-400);
 }
 .container_text--sabiduria {
   text-align: center;
@@ -9,15 +9,15 @@ main {
   margin-bottom: 4rem;
 }
 .container_text--sabiduria > h1 {
-  font-size: var(--iphone-titles-bold-size);
-  font-weight: var(--titles-bold-weight);
+  font-size: var(--titles-iphone);
+  font-weight: var(--extraBold);
   font-family: var(--titles-font-family);
   margin-bottom: 16px;
 }
 .container_text--sabiduria > p {
-  font-size: var(--iphone-texts-size);
-  font-weight: var(--texts-weight);
-  line-height: var(--iphone-texts-height);
+  font-size: var(--texts-iphone);
+  font-weight: var(--regular);
+  line-height: var(--texts-height-iphone);
   font-family: var(--texts-font-family);
   line-break: auto;
 }
@@ -31,46 +31,36 @@ main {
 }
 
 .container_text--projects > h3 {
-  font-size: var(--iphone-texts-size);
-  font-weight: var(--texts-weight);
+  font-size: var(--texts-iphone);
+  font-weight: var(--bold);
   font-family: var(--texts-font-family);
-  background: var(--fonts-radial);
+  background: var(--sunGlow-sunRed-400g1);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 6px;
 }
 .container_text--projects > h1 {
-  font-size: var(--iphone-titles-bold-size);
-  font-weight: var(--titles-bold-weight);
+  font-size: var(--titles-iphone);
+  font-weight: var(--extraBold);
   font-family: var(--titles-font-family);
   margin-bottom: 4px;
 }
 .container_description--left {
-  background: linear-gradient(
-    91.45deg,
-    rgba(255, 230, 0, 0.03) 11.03%,
-    rgba(255, 98, 0, 0.19) 59.3%,
-    rgba(186, 24, 24, 0.24) 95.28%
-  );
+  background: var(--projects-gradiend-100g1);
   border-radius: 14px;
   padding: 1rem 1.3rem;
 }
 
 .container_description--right {
-  background: linear-gradient(
-    261.3deg,
-    rgba(255, 230, 0, 0.03) 10.91%,
-    rgba(255, 98, 0, 0.19) 57.99%,
-    rgba(186, 24, 24, 0.24) 93.1%
-  );
+  background: var(--projects-gradiend-100g2);
   border-radius: 14px;
   padding: 1rem 1.3rem;
 }
 .description--projects {
-  font-size: var(--iphone-texts-size);
-  font-weight: var(--texts-weight);
-  line-height: var(--iphone-texts-height);
+  font-size: var(--texts-iphone);
+  font-weight: var(--regular);
+  line-height: var(--texts-height-iphone);
   font-family: var(--texts-font-family);
   line-break: auto;
 }
@@ -100,7 +90,7 @@ main {
   );
   position: absolute;
   top: 13rem;
-  right: -2rem;
+  right: 0rem;
   pointer-events: none;
 }
 .brillo-right {
@@ -120,10 +110,10 @@ main {
 }
 
 .contact_img-left {
-  box-shadow: 18px -14px 15px rgba(44, 39, 55, 0.79);
+  box-shadow: 18px -14px 15px var(--shade-left-up);
 }
 .contact_img-right {
-  box-shadow: -18px -14px 15px rgba(44, 39, 55, 0.79);
+  box-shadow: -18px -14px 15px var(--shade-right-up);
 }
 .img--projects img{
   border-radius: 14px;
@@ -134,7 +124,7 @@ main {
 .container_icons--share {
   display: flex;
   justify-content: space-evenly;
-  background: rgba(217, 217, 217, 0.22);
+  background: var(--blue-night-low-500);
   border-radius: 14px;
   padding: 12px 0;
   z-index: 1;

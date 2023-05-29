@@ -3,7 +3,7 @@
 }
 
 .text_sabiduria {
-  font-size: var(--desktop-titles-size);
+  font-size: var(--texts-desktop);
 }
 .brillo-top {
   right: 15rem;
@@ -12,7 +12,7 @@
   left: 17rem;
 }
 .titles_certificates {
-  font-size: var(--desktop-titles-bold-size);
+  font-size: var(--titles-desktop);
 }
 .container_certificates .indicadores_carusel {
   display: flex;

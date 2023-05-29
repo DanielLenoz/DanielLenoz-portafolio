@@ -1,43 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Merriweather:wght@400;700;900&family=Montserrat:wght@400;700;800&display=swap");
 :root {
-  --fonts-color: #effafb;
-  --fonts-radial: linear-gradient(
-    180deg,
-    #ffe600 0%,
-    rgba(245, 70, 1, 0.921357) 100%
-  );
-  --line-color: #bd4103;
-  --background-header-color: #0d121d;
-  --background-main-color: #0d121d;
-  --background-footer-color: #231f1f;
-  --background-radial: radial-gradient(
-    212.74% 78.26% at 50% 0%,
-    rgba(228, 207, 13, 0.99) 0%,
-    rgba(163, 24, 24, 0.96) 29.31%,
-    #0d121d 67.28%
-  );
-  --background-relleno-card-color: #1f1f21;
-  --background-border-card-color: #3d3d3d;
-  --background-botton-color: linear-gradient(
-    180deg,
-    #ffe600 0%,
-    rgba(245, 70, 1, 0.921357) 100%
-  );
+  /* colo */
+  --white-bone-200:#F6FCFD;
+  --neon-green-300:#78DD1E;
+  --blue-night-low-500:rgba(8, 11, 20, 0.49);
+  --blue-night-400:#0D111E;
+  --noble-black-500:#1D1E1F;
+  --noble-black-300:#4C4E51;
+  --sun-red-400:#E44104;
+  --sunGlow-sunRed-400g1:linear-gradient(180deg, #EDD600 0%, #E44104 100%);
+  --projects-gradiend-100g1:linear-gradient(91.45deg, rgba(237, 214, 0, 0.03) 11.03%, rgba(255, 98, 0, 0.19) 59.3%, rgba(201, 48, 4, 0.24) 95.28%);
+  --projects-gradiend-100g2:linear-gradient(261.3deg, rgba(237, 214, 0, 0.03) 10.91%, rgba(255, 98, 0, 0.19) 57.99%, rgba(201, 48, 4, 0.24) 93.1%);
+  --unique-sunset:radial-gradient(212.74% 78.26% at 50% 0%,
+      rgba(228, 207, 13, 0.99) 0%,
+      rgba(163, 24, 24, 0.96) 29.31%,
+      #0d121d 67.28%);
+  --shade-right-up:rgba(104, 105, 107, 0.21);
+  --shade-left-up:rgba(104, 105, 107, 0.21);
   /* variables text */
-  --texts-weight: 400;
-  --titles-weight: 700;
-  --titles-bold-weight: 800;
   --unic-font-family: "Carter One", cursive;
   --titles-font-family: "Merriweather", serif;
   --texts-font-family: "Montserrat", sans-serif;
-  --iphone-titles-size: 18px;
-  --iphone-titles-bold-size: 20px;
-  --iphone-texts-size: 16px;
-  --iphone-texts-height: 24px;
-  --desktop-titles-size: 24px;
-  --desktop-titles-bold-size: 28px;
-  --desktop-texts-size: 20px;
-  --desktop-texts-height: 31px;
+  --regular: 400;
+  --bold: 700;
+  --extraBold: 800;
+  --titles-iphone: 20px;
+  --subtitles-iphone: 18px;
+  --texts-iphone: 16px;
+  --texts-height-iphone: 24px;
+  --titles-desktop: 28px;
+  --subtitles-desktop: 24px;
+  --texts-desktop: 18px;
+  --texts-height-desktop: 28px;
 }
 
 * {
@@ -52,7 +46,7 @@ html {
 }
 
 body {
-  color: var(--fonts-color);
+  color: var(--white-bone-200);
 }
 
 a {
