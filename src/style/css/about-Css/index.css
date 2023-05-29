@@ -117,9 +117,15 @@
   position: absolute;
 }
 
-.icon_freelancer-color,
+.icon_freelancer-color {
+  transform: scale(0);
+  transform-origin: left bottom;
+  transition: 0.2s ease-in-out all;
+}
 .icon_platzi-color {
   transform: scale(0);
+  transform-origin: top;
+  transition: 0.2s ease-in-out all;
 }
 .experience:hover .icon_freelancer-color,
 .experience:hover .icon_platzi-color {
