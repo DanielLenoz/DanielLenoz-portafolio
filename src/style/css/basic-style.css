@@ -1,22 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Merriweather:wght@400;700;900&family=Montserrat:wght@400;700;800&display=swap");
 :root {
   /* colo */
-  --white-bone-200:#F6FCFD;
-  --neon-green-300:#78DD1E;
-  --blue-night-low-500:rgba(8, 11, 20, 0.49);
-  --blue-night-400:#0D111E;
-  --noble-black-500:#1D1E1F;
-  --noble-black-300:#4C4E51;
-  --sun-red-400:#E44104;
-  --sunGlow-sunRed-400g1:linear-gradient(180deg, #EDD600 0%, #E44104 100%);
-  --projects-gradiend-100g1:linear-gradient(91.45deg, rgba(237, 214, 0, 0.03) 11.03%, rgba(255, 98, 0, 0.19) 59.3%, rgba(201, 48, 4, 0.24) 95.28%);
-  --projects-gradiend-100g2:linear-gradient(261.3deg, rgba(237, 214, 0, 0.03) 10.91%, rgba(255, 98, 0, 0.19) 57.99%, rgba(201, 48, 4, 0.24) 93.1%);
-  --unique-sunset:radial-gradient(212.74% 78.26% at 50% 0%,
-      rgba(228, 207, 13, 0.99) 0%,
-      rgba(163, 24, 24, 0.96) 29.31%,
-      #0d121d 67.28%);
-  --shade-right-up:rgba(104, 105, 107, 0.21);
-  --shade-left-up:rgba(104, 105, 107, 0.21);
+  --white-bone-200: #f6fcfd;
+  --neon-green-300: #78dd1e;
+  --blue-night-low-500: rgba(8, 11, 20, 0.49);
+  --blue-night-400: #0d111e;
+  --noble-black-500: #1d1e1f;
+  --noble-black-300: #4c4e51;
+  --sun-red-400: #e44104;
+  --sunGlow-sunRed-400g1: linear-gradient(180deg, #edd600 0%, #e44104 100%);
+  --projects-gradiend-100g1: linear-gradient(
+    91.45deg,
+    rgba(237, 214, 0, 0.03) 11.03%,
+    rgba(255, 98, 0, 0.19) 59.3%,
+    rgba(201, 48, 4, 0.24) 95.28%
+  );
+  --projects-gradiend-100g2: linear-gradient(
+    261.3deg,
+    rgba(237, 214, 0, 0.03) 10.91%,
+    rgba(255, 98, 0, 0.19) 57.99%,
+    rgba(201, 48, 4, 0.24) 93.1%
+  );
+  --unique-sunset: radial-gradient(
+    212.74% 78.26% at 50% 0%,
+    rgba(228, 207, 13, 0.99) 0%,
+    rgba(163, 24, 24, 0.96) 29.31%,
+    #0d121d 67.28%
+  );
+  --shade-right-up: rgba(104, 105, 107, 0.21);
+  --shade-left-up: rgba(104, 105, 107, 0.21);
   /* variables text */
   --unic-font-family: "Carter One", cursive;
   --titles-font-family: "Merriweather", serif;
