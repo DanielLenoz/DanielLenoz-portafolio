@@ -6,7 +6,8 @@
   font-size: var(--titles-desktop);
   margin: 2rem 0;
 }
-.container_text--sabiduria > p {
+.container_text--sabiduria > p,
+.description--projects {
   font-size: var(--texts-desktop);
   line-height: var(--texts-height-desktop);
 }
@@ -19,10 +20,10 @@
 .container_text--projects > h1 {
   font-size: var(--titles-desktop);
 }
-.description--projects {
+/* .description--projects {
   font-size: var(--texts-desktop);
   line-height: var(--texts-height-desktop);
-}
+} */
 .contact_project.projects-left {
   display: flex;
 }
@@ -30,12 +31,11 @@
   display: flex;
   flex-direction: row-reverse;
 }
-.text-right > h3 {
-  text-align: end;
-}
+.text-right > h3,
 .text-right > h1 {
   text-align: end;
 }
+
 .container_img--projects {
   width: 43.8rem;
   height: 25.6rem;

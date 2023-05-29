@@ -14,7 +14,8 @@ main {
   font-family: var(--titles-font-family);
   margin-bottom: 16px;
 }
-.container_text--sabiduria > p {
+.container_text--sabiduria > p,
+.description--projects {
   font-size: var(--texts-iphone);
   font-weight: var(--regular);
   line-height: var(--texts-height-iphone);
@@ -56,13 +57,6 @@ main {
   background: var(--projects-gradiend-100g2);
   border-radius: 14px;
   padding: 1rem 1.3rem;
-}
-.description--projects {
-  font-size: var(--texts-iphone);
-  font-weight: var(--regular);
-  line-height: var(--texts-height-iphone);
-  font-family: var(--texts-font-family);
-  line-break: auto;
 }
 
 .container_img--projects {
@@ -115,7 +109,7 @@ main {
 .contact_img-right {
   box-shadow: -18px -14px 15px var(--shade-right-up);
 }
-.img--projects img{
+.img--projects img {
   border-radius: 14px;
   background-size: cover;
   background-position: center;

@@ -19,16 +19,8 @@
   grid-area: contact;
 }
 
-.share_link {
-  font-size: var(--texts-desktop);
-  line-height: var(--texts-height-desktop);
-}
-
-.footer-text {
-  font-size: var(--texts-desktop);
-  line-height: var(--texts-height-desktop);
-}
-
+.share_link,
+.footer-text,
 .contact_text {
   font-size: var(--texts-desktop);
   line-height: var(--texts-height-desktop);

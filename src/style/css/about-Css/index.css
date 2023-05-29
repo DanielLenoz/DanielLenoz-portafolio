@@ -13,7 +13,9 @@
   font-family: var(--titles-font-family);
   margin-bottom: 2.5rem;
 }
-.container_about--text .text {
+.container_about--text .text,
+.text_skill,
+.text_experience {
   font-size: var(--texts-iphone);
   font-weight: var(--regular);
   line-height: var(--texts-height-iphone);
@@ -55,13 +57,7 @@
   font-weight: var(--bold);
   font-family: var(--titles-font-family);
 }
-.text_skill {
-  font-size: var(--texts-iphone);
-  font-family: var(--texts-font-family);
-  font-weight: var(--regular);
-  line-height: var(--texts-height-iphone);
-  line-break: auto;
-}
+
 /** area de experiencia */
 .container_experience {
   display: grid;
@@ -110,18 +106,23 @@
   row-gap: 15px;
   padding: 2.4rem;
 }
-.container_img--freelancer{
+.container_img--freelancer,
+.container_img--platzi {
   display: flex;
   position: relative;
   align-items: self-start;
 }
-.icon_freelancer{
+.icon_freelancer,
+.icon_platzi {
   position: absolute;
 }
-.icon_freelancer-color{
+
+.icon_freelancer-color,
+.icon_platzi-color {
   transform: scale(0);
 }
-.experience:hover .icon_freelancer-color{
+.experience:hover .icon_freelancer-color,
+.experience:hover .icon_platzi-color {
   transform: scale(1);
 }
 
@@ -140,13 +141,7 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.text_experience {
-  font-size: var(--texts-iphone);
-  font-family: var(--texts-font-family);
-  font-weight: var(--regular);
-  line-height: var(--texts-height-iphone);
-  line-break: auto;
-}
+
 .button_experience--freelancer,
 .button_experience--platzi {
   border: none;
@@ -166,11 +161,11 @@
   font-family: var(--texts-font-family);
   color: var(--white-bone-200);
 }
-.experience--freelancer:hover .button_experience--freelancer {
-  background-image: linear-gradient(180deg, #2A8B93 0%, #12151C 100%);
+.experience:hover .button_experience--freelancer {
+  background-image: linear-gradient(180deg, #2a8b93 0%, #12151c 100%);
 }
-.experience--platzi:hover .button_experience--platzi {
-  background-image: linear-gradient(360deg, #7DAC29 0%, #12151C 100%);
+.experience:hover .button_experience--platzi {
+  background-image: linear-gradient(360deg, #7dac29 0%, #12151c 100%);
 }
 
 /**area de technology*/
@@ -223,18 +218,18 @@
   padding: 4.2rem;
 }
 
-.containeri-img--icons{
+.containeri-img--icons {
   display: flex;
   position: relative;
 }
 
-.icon-blanco{
+.icon-blanco {
   position: absolute;
 }
-.icon-color{
+.icon-color {
   transform: scale(0);
 }
-.technology:hover .icon-color{
+.technology:hover .icon-color {
   transform: scale(1);
 }
 .technology > h2 {

@@ -4,10 +4,15 @@
 .container_about--text {
   align-self: center;
 }
-.container_about--text .title {
+.container_about--text .title,
+.container_skills > h1,
+.container_experience > h1,
+.container_technology > h1 {
   font-size: var(--titles-desktop);
 }
-.container_about--text .text {
+.container_about--text .text,
+.text_skill,
+.text_experience {
   font-size: var(--texts-desktop);
   line-height: var(--texts-height-desktop);
 }
@@ -15,39 +20,26 @@
 .container_skills {
   padding: 0 8.4rem;
 }
-.container_skills > h1 {
-  font-size: var(--titles-desktop);
-}
+
 .container_card--skills {
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 2.5rem;
   row-gap: 2.5rem;
 }
-.title_skill {
+.title_skill,
+.title_experience {
   font-size: var(--subtitles-desktop);
-}
-.text_skill {
-  font-size: var(--texts-desktop);
-  line-height: var(--texts-height-desktop);
 }
 
 .container_experience {
   padding: 7rem 8.4rem 0;
 }
-.container_experience > h1 {
-  font-size: var(--titles-desktop);
-}
+
 .container_card--experience {
   grid-template-columns: 354px 354px;
   column-gap: 2.5rem;
 }
-.title_experience {
-  font-size: var(--subtitles-desktop);
-}
-.text_experience {
-  font-size: var(--texts-desktop);
-  line-height: var(--texts-height-desktop);
-}
+
 .button_experience--freelancer,
 .button_experience--platzi {
   width: 18.4rem;
@@ -61,9 +53,7 @@
 .container_technology {
   padding: 7rem 8.4rem 20rem;
 }
-.container_technology > h1 {
-  font-size: var(--titles-desktop);
-}
+
 .container_card--technology {
   grid-template-columns: 354px 354px 354px;
   grid-auto-rows: 363px;
