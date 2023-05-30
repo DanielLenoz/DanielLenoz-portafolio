@@ -58,6 +58,7 @@ html {
 
 body {
   color: var(--white-bone-200);
+  overflow-x: hidden;
 }
 
 a {

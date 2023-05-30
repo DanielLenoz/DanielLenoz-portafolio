@@ -22,12 +22,21 @@ nav {
 .navar--desktop {
   display: none;
 }
-
-.navar--mobile .container_menu-mobile {
+.container_menu-mobile.inactive {
+  left: 100%;
+  transform: none;
+  transition: 0.5s ease-in-out;
+  overflow: hidden;
+  border-top-left-radius: 100%;
+  border-bottom-left-radius: 100%;
+}
+.container_menu-mobile{
   height: 100vh;
   width: 100%;
   background: var(--blue-night-400);
   position: relative;
+  left: 0;
+  transition: 0.5s ease-in-out;
 }
 
 .menu--icon {
