@@ -5,6 +5,6 @@ const search5 = (query) =>
     certificatesId.certificatesId.includes(query)
     );
 
-search5("finanzas").map((data) => {
+search5("extra").map((data) => {
     containerCaruelExtra.appendChild(new Certificates(data))
 })

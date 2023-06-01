@@ -1,5 +1,41 @@
 const certificatesElements = [
   {
+    certificatesImgSrc: "../src/img/img-cursos-technologia/clean-code-javascript.jpg",
+    certificatesId:"tecnologia",
+    altDescription:"curso de debugging devtools",
+  },
+  {
+    certificatesImgSrc: "../src/img/img-cursos-diseno/figma-prototipado-interfaces.jpg",
+    certificatesId:"diseno",
+    altDescription:"curso de figma prototipado y interfaces",
+  },
+  {
+    certificatesImgSrc: "../src/img/img-cursos-diseno/desarrollo-web-diseñadores-basico.jpg",
+    certificatesId:"diseno",
+    altDescription:"curso de desarrollo web para diseñadores basico",
+  },
+  {
+    certificatesImgSrc: "../src/img/img-cursos-finanzas/economia-comportamiento.jpg",
+    certificatesId:"finanzas",
+    altDescription:"curso de ecomia del comportamiento",
+  },
+  {
+    certificatesImgSrc: "../src/img/img-cursos-finanzas/introduccion-economia-conductual.jpg",
+    certificatesId:"finanzas",
+    altDescription:"curso de introduccion de economia conductual",
+  },
+  {
+    certificatesImgSrc: "../src/img/img-cursos-finanzas/manejo-creditos-deudas.jpg",
+    certificatesId:"finanzas",
+    altDescription:"curso de manejo de creditos y deudas",
+  },
+  {
+    certificatesImgSrc: "../src/img/img-cursos-finanzas/plan-ahorro-personal.jpg",
+    certificatesId:"finanzas",
+    altDescription:"curso de plan de ahorro personal",
+  },
+//!nuevo blogs */
+    {
     certificatesImgSrc: "../src/img/img-cursos-technologia/debugging-devtools.jpg",
     certificatesId:"tecnologia",
     altDescription:"curso de debugging devtools",
@@ -217,6 +253,12 @@ const certificatesElements = [
   },
   {
     certificatesImgSrc:
+      "../src/img/img-cursos-ingles/A2-infinitive-present-continuous.jpg",
+    certificatesId:"ingles",
+      altDescription:"curso de A2 present continuos and prepositions"
+  },
+  {
+    certificatesImgSrc:
       "../src/img/img-cursos-ingles/A2-present-continuous-and-prepositions.jpg",
     certificatesId:"ingles",
       altDescription:"curso de A2 present continuos and prepositions"
@@ -245,6 +287,11 @@ const certificatesElements = [
     certificatesImgSrc: "../src/img/img-cursos-ingles/A1-dates,times-and-simple-expresiones.jpg",
     certificatesId:"ingles",
     altDescription:"curso de A1 dates, times and simple expresiones"
+  },
+  {
+    certificatesImgSrc: "../src/img/img-cursos-ingles/work-elements-expressions.jpg",
+    certificatesId:"ingles",
+    altDescription:"curso de work elements and expressions"
   },
   {
     certificatesImgSrc: "../src/img/img-cursos-ingles/workshop-for-beginners.jpg",
