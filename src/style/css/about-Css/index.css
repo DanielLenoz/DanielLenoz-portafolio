@@ -102,9 +102,7 @@
   z-index: 1;
   background: var(--blue-night-400);
 }
-.brillo,
-.brillo-top,
-.brillo-bottom {
+.brillo{
   animation: respite 2s infinite cubic-bezier(0.18, 0.35, 0.63, 0.4);
 }
 @keyframes respite {

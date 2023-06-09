@@ -46,20 +46,7 @@ main {
   left: -4rem;
   pointer-events: none;
 }
-.brillo-bottom,
-.brillo-top {
-  animation: respite 2s infinite cubic-bezier(0.18, 0.35, 0.63, 0.4);
-}
 
-@keyframes respite {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1.5);
-  }
-}
 
 .titles_certificates {
   font-size: var(--titles-iphone);
