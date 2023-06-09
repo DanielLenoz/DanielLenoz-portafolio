@@ -4,6 +4,14 @@
 .container_about--text {
   align-self: center;
 }
+.reflex{
+  left: -112%;
+}
+.skill:hover .reflex{
+  transition: 1.8s ease-in-out;
+  transform: translateX(110rem);
+}
+
 .container_about--text .title,
 .container_skills > h1,
 .container_experience > h1,
@@ -54,11 +62,6 @@
   padding: 7rem 8.4rem 20rem;
 }
 
-.container_card--technology {
-  grid-template-columns: 354px 354px 354px;
-  grid-auto-rows: 363px;
-  column-gap: 2.5rem;
-}
 .technology {
   align-content: center;
   align-items: center;

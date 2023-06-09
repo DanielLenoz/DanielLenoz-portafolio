@@ -60,6 +60,7 @@ html {
 body {
   color: var(--white-bone-200);
   overflow-x: hidden;
+  background: var(--blue-night-400);
 }
 
 a {
