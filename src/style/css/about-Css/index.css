@@ -164,8 +164,7 @@
 }
 
 .icon_freelancer-color {
-  transform: scale(0);
-  transform-origin: left bottom;
+  opacity: 0;
   transition: 0.2s ease-in-out all;
 }
 .icon_platzi-color {
@@ -175,7 +174,8 @@
 }
 .experience:hover .icon_freelancer-color,
 .experience:hover .icon_platzi-color {
-  transform: scale(1);
+  z-index: 1;
+  opacity: 1;
 }
 
 .container_text--experience {
