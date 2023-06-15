@@ -168,8 +168,7 @@
   transition: 0.2s ease-in-out all;
 }
 .icon_platzi-color {
-  transform: scale(0);
-  transform-origin: top;
+  opacity: 0;
   transition: 0.2s ease-in-out all;
 }
 .experience:hover .icon_freelancer-color,
