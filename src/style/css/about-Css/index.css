@@ -102,7 +102,7 @@
   z-index: 1;
   background: var(--blue-night-400);
 }
-.brillo{
+.brillo {
   animation: respite 2s infinite cubic-bezier(0.18, 0.35, 0.63, 0.4);
 }
 @keyframes respite {
@@ -163,14 +163,12 @@
   position: absolute;
 }
 
-.icon_freelancer-color {
-  opacity: 0;
-  transition: 0.2s ease-in-out all;
-}
+.icon_freelancer-color,
 .icon_platzi-color {
   opacity: 0;
   transition: 0.2s ease-in-out all;
 }
+
 .experience:hover .icon_freelancer-color,
 .experience:hover .icon_platzi-color {
   z-index: 1;
