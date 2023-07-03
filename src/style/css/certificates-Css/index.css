@@ -96,11 +96,7 @@ main {
 
 
 @media (min-width: 768px) {
-  .button-left {
-    width: 4%;
-    height: 80%;
-  }
-  .button-right {
+  .button-left, .button-right {
     width: 4%;
     height: 80%;
   }
