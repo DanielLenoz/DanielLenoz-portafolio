@@ -17,6 +17,23 @@
 .container_certificates .indicadores_carusel {
   display: flex;
 }
+.indicadores_carusel .glider-dot {
+  display: block;
+  width: 3rem;
+  height: 4px;
+  background: var(--sunGlow-sunRed-400g1);
+  opacity: 0.2;
+  border-radius: 0;
+}
+
+.indicadores_carusel .glider-dot:hover {
+  opacity: 0.5;
+}
+
+.indicadores_carusel .glider-dot.active {
+  opacity: 1;
+  background: var(--sunGlow-sunRed-400g1);
+}
 /* !temporal e iphone */
 @media (min-width: 1024px) {
   .button-left {
