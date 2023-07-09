@@ -1,6 +1,54 @@
 const certificatesElements = [
   {
     certificatesImgSrc:
+      "../src/img/img-cursos-technologia/curso-vite-js.jpg",
+    certificatesId: "tecnologia",
+    altDescription: "curso de vite js",
+  },
+  {
+    certificatesImgSrc:
+      "../src/img/img-cursos-technologia/npm-gestion-paquetes-dependecias-JS.jpg",
+    certificatesId: "tecnologia",
+    altDescription: "curso de npm gestion paquetes dependecias JS",
+  },
+  {
+    certificatesImgSrc:
+      "../src/img/img-cursos-technologia/Performance-Usabilidad-API-JS.jpg",
+    certificatesId: "tecnologia",
+    altDescription: "curso de Performance Usabilidad API JS",
+  },
+  {
+    certificatesImgSrc:
+      "../src/img/img-cursos-technologia/practica-API-rest-JS.jpg",
+    certificatesId: "tecnologia",
+    altDescription: "curso de practica API rest JS",
+  },
+  {
+    certificatesImgSrc:
+      "../src/img/img-cursos-technologia/consumo-API-rest-javascript.jpg",
+    certificatesId: "tecnologia",
+    altDescription: "curso de consumo-API rest javascript",
+  },
+  {
+    certificatesImgSrc:
+      "../src/img/img-cursos-technologia/asincronismo-javascript.jpg",
+    certificatesId: "tecnologia",
+    altDescription: "curso de asincronismo con javascript",
+  },
+  {
+    certificatesImgSrc:
+      "../src/img/img-cursos-ingles/business-travels.jpg",
+    certificatesId: "inlges",
+    altDescription: "curso de business travels",
+  },
+  {
+    certificatesImgSrc:
+      "../src/img/img-cursos-ingles/B1-expression-time-quantity.jpg",
+    certificatesId: "ingles",
+    altDescription: "B1 expression time quantity",
+  },
+  {
+    certificatesImgSrc:
       "../src/img/img-cursos-technologia/clean-code-javascript.jpg",
     certificatesId: "tecnologia",
     altDescription: "curso de debugging devtools",
